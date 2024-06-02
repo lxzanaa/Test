@@ -1,0 +1,45 @@
+[01-Jun-2024 07:27:24 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "netevia_dark_body_classes" not found or invalid function name in C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\class-wp-hook.php:326
+Stack trace:
+#0 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\post-template.php(857): apply_filters('body_class', Array, Array)
+#2 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\post-template.php(620): get_body_class(Array)
+#3 C:\Users\Hp\Local Sites\new-site\app\public\wp-content\themes\twentytwentyfour\header.php(20): body_class()
+#4 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\template.php(810): require_once('C:\\Users\\Hp\\Loc...')
+#5 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hp\\Loc...', true, Array)
+#6 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\Users\Hp\Local Sites\new-site\app\public\wp-content\themes\twentytwentyfour\index.php(4): get_header()
+#8 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hp\\Loc...')
+#9 C:\Users\Hp\Local Sites\new-site\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hp\\Loc...')
+#10 C:\Users\Hp\Local Sites\new-site\app\public\index.php(17): require('C:\\Users\\Hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\class-wp-hook.php on line 326
+[01-Jun-2024 07:27:24 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "netevia_dark_body_classes" not found or invalid function name in C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\class-wp-hook.php:326
+Stack trace:
+#0 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\post-template.php(857): apply_filters('body_class', Array, Array)
+#2 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\post-template.php(620): get_body_class(Array)
+#3 C:\Users\Hp\Local Sites\new-site\app\public\wp-content\themes\twentytwentyfour\header.php(20): body_class()
+#4 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\template.php(810): require_once('C:\\Users\\Hp\\Loc...')
+#5 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hp\\Loc...', true, Array)
+#6 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\Users\Hp\Local Sites\new-site\app\public\wp-content\themes\twentytwentyfour\index.php(4): get_header()
+#8 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hp\\Loc...')
+#9 C:\Users\Hp\Local Sites\new-site\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hp\\Loc...')
+#10 C:\Users\Hp\Local Sites\new-site\app\public\index.php(17): require('C:\\Users\\Hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\class-wp-hook.php on line 326
+[01-Jun-2024 07:27:25 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "netevia_dark_body_classes" not found or invalid function name in C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\class-wp-hook.php:326
+Stack trace:
+#0 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\post-template.php(857): apply_filters('body_class', Array, Array)
+#2 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\post-template.php(620): get_body_class(Array)
+#3 C:\Users\Hp\Local Sites\new-site\app\public\wp-content\themes\twentytwentyfour\header.php(20): body_class()
+#4 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\template.php(810): require_once('C:\\Users\\Hp\\Loc...')
+#5 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hp\\Loc...', true, Array)
+#6 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\Users\Hp\Local Sites\new-site\app\public\wp-content\themes\twentytwentyfour\index.php(4): get_header()
+#8 C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hp\\Loc...')
+#9 C:\Users\Hp\Local Sites\new-site\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hp\\Loc...')
+#10 C:\Users\Hp\Local Sites\new-site\app\public\index.php(17): require('C:\\Users\\Hp\\Loc...')
+#11 {main}
+  thrown in C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\class-wp-hook.php on line 326
