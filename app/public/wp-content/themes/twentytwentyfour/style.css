@@ -13,3 +13,53 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: new-site
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.service-card:nth-child(2n)>div {
+    display: none;
+}
+
+.card-hover:hover {
+    border: 1px solid #0286ef;
+    box-shadow: 0px 0px 10px 0px #0286ef;
+}
+
+.card-hover {
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 10px 0px transparent;
+    transition: box-shadow 0.3s, border 0.3s;
+}
+
+#circle-text span {
+    position: absolute;
+    left: 50%;
+    font-size: 1.2em;
+    transform-origin: 0 180px;
+}
+
+.wow:first-child {
+    visibility: hidden;
+}
+
+.social-hover {
+    transition: all .3s;
+    filter: invert(0%);
+    border: 1px solid #1D1D1D;
+}
+
+.social-hover:hover {
+    filter: invert(100%);
+    /* border: 2px solid #fff; */
+    overflow-x: auto;
+}
+
+.contact-ing-animation {
+    transform: translateY(0px);
+    transition: all .3s;
+}
+
+.contact-ing-animation:hover {
+    transform: translateY(-12px);
+}

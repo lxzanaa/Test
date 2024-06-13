@@ -43,3 +43,107 @@ Stack trace:
 #10 C:\Users\Hp\Local Sites\new-site\app\public\index.php(17): require('C:\\Users\\Hp\\Loc...')
 #11 {main}
   thrown in C:\Users\Hp\Local Sites\new-site\app\public\wp-includes\class-wp-hook.php on line 326
+[02-Jun-2024 17:06:58 UTC] PHP Warning:  Undefined array key "title" in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 12
+[02-Jun-2024 17:06:58 UTC] PHP Warning:  Undefined array key "title" in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 12
+[02-Jun-2024 17:07:11 UTC] PHP Warning:  Undefined array key "title" in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 12
+[02-Jun-2024 17:07:11 UTC] PHP Warning:  Undefined array key "title" in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 12
+[02-Jun-2024 17:07:30 UTC] PHP Warning:  Undefined array key "title" in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 12
+[02-Jun-2024 17:07:30 UTC] PHP Warning:  Undefined array key "title" in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 12
+[03-Jun-2024 08:25:40 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[03-Jun-2024 08:25:40 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[03-Jun-2024 08:26:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[03-Jun-2024 08:26:20 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[03-Jun-2024 08:26:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[03-Jun-2024 08:26:20 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[03-Jun-2024 08:27:28 UTC] PHP Warning:  Undefined array key "heading" in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[03-Jun-2024 08:27:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[03-Jun-2024 08:27:28 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[03-Jun-2024 08:27:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[03-Jun-2024 08:27:28 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[03-Jun-2024 08:27:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[03-Jun-2024 08:27:28 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[03-Jun-2024 08:28:16 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[03-Jun-2024 08:28:16 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[03-Jun-2024 08:28:16 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[03-Jun-2024 08:28:16 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[03-Jun-2024 08:28:16 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[03-Jun-2024 08:28:16 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[03-Jun-2024 08:47:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[03-Jun-2024 08:47:11 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[03-Jun-2024 08:47:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[03-Jun-2024 08:47:11 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[03-Jun-2024 08:47:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[03-Jun-2024 08:47:11 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:22:07 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[13-Jun-2024 12:22:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:22:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:22:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:22:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:22:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:22:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:22:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:22:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:22:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:22:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:22:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:22:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:15 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:15 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:15 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:15 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 13
+[13-Jun-2024 12:33:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:15 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
+[13-Jun-2024 12:33:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 12:33:15 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
