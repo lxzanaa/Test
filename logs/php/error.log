@@ -147,3 +147,10 @@ Stack trace:
 [13-Jun-2024 12:33:15 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 15
 [13-Jun-2024 12:33:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
 [13-Jun-2024 12:33:15 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\index.php on line 17
+[13-Jun-2024 16:13:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_footereng() in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\pages\index-eng.php:3886
+Stack trace:
+#0 C:\Users\Hp\Local Sites\test\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Hp\Local Sites\test\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hp\\Loc...')
+#2 C:\Users\Hp\Local Sites\test\app\public\index.php(17): require('C:\\Users\\Hp\\Loc...')
+#3 {main}
+  thrown in C:\Users\Hp\Local Sites\test\app\public\wp-content\themes\twentytwentyfour\pages\index-eng.php on line 3886

@@ -46,7 +46,7 @@ $data = get_fields();
         </a>
         <div class="items-center ml-auto gap-10 hidden lg:flex">
             <ul class="flex gap-10 items-center">
-                <li><a class="text-white text-base font-semibold hover:text-[#0286EF] transition-all" href="./index/">Bosh
+                <li><a class="text-white text-base font-semibold hover:text-[#0286EF] transition-all" href="/index/">Bosh
                         sahifa </a></li>
                 <li><a class="text-white text-base font-semibold hover:text-[#0286EF] transition-all" href="/services/">Xizmatlar</a></li>
                 <li><a class="text-white text-base font-semibold hover:text-[#0286EF] transition-all" href="/news/">Yangiliklar</a></li>
@@ -91,14 +91,14 @@ $data = get_fields();
         </div>
         <div class="flex flex-col items-center justify-center pt-24">
             <ul class="flex flex-col gap-10 items-center mb-8">
-                <li><a class="text-white text-base font-semibold hover:text-[#0286EF] transition-all" href="./index/">Bosh
+                <li><a class="text-white text-base font-semibold hover:text-[#0286EF] transition-all" href="/index/">Bosh
                         sahifa </a></li>
-                <li><a class="text-white text-base font-semibold hover:text-[#0286EF] transition-all" href="./services/">Xizmatlar</a></li>
-                <li><a class="text-white text-base font-semibold hover:text-[#0286EF] transition-all" href="./news/">Yangiliklar</a></li>
-                <li><a class="text-white text-base font-semibold hover:text-[#0286EF] transition-all" href="./employees/">Xodimlar</a></li>
-                <li><a class="text-white text-base font-semibold hover:text-[#0286EF] transition-all" href="./elonlar/">Vakansiya</a></li>
+                <li><a class="text-white text-base font-semibold hover:text-[#0286EF] transition-all" href="/services/">Xizmatlar</a></li>
+                <li><a class="text-white text-base font-semibold hover:text-[#0286EF] transition-all" href="/news/">Yangiliklar</a></li>
+                <li><a class="text-white text-base font-semibold hover:text-[#0286EF] transition-all" href="/employees/">Xodimlar</a></li>
+                <li><a class="text-white text-base font-semibold hover:text-[#0286EF] transition-all" href="/elonlar/">Vakansiya</a></li>
             </ul>
-            <a class="text-[#D9FFFF] text-sm font-bold  bg-[#0086EE] rounded-lg py-2.5 px-12 border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all" style="box-shadow: 0px 1px 14px -4px #016079;" href="../index/#contact">Ulanish</a>
+            <a class="text-[#D9FFFF] text-sm font-bold  bg-[#0086EE] rounded-lg py-2.5 px-12 border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all" style="box-shadow: 0px 1px 14px -4px #016079;" href="/index/#contact">Ulanish</a>
 
         </div>
     </div>
@@ -109,7 +109,7 @@ $data = get_fields();
 <!-- hero  -->
 <section class="pt-[148px] pb-[512px] overflow-hidden">
     <div class="max-w-[1322px] mx-auto px-5 relative">
-        <img class="absolute -bottom-[400px] md:-top-24 -right-2 lg:h-[741px] h-[330px] z-0" src="<?php echo get_template_directory_uri(); ?>/assets/img/hero-bg.png" alt="">
+        <img class="absolute -bottom-[400px] md:-top-24 -right-2 lg:h-[741px] h-[330px] -z-20" src="<?php echo get_template_directory_uri(); ?>/assets/img/hero-bg.png" alt="">
         <h2 class="text-white text-3xl font-semibold uppercase mb-10">IT mutaxassislaridan qulayliklarni <br>
             taklif qilamiz</h2>
         <a href="/about/" style="box-shadow: 0px 1px 14px -4px #0286EF;" class="text-white inline-block font-bold text-sm bg-[#0186EF]  rounded-lg py-3 px-16 border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Batafsil</a>
@@ -2308,7 +2308,7 @@ $data = get_fields();
 </script>
 
 
-<!-- footer  -->
+<!-- footer start -->
 <footer class="py-16 bg-[#1D1D1D]">
     <div class="max-w-[1322px] mx-auto px-5 lg:flex  items-center gap-40">
         <svg class="flex-shrink-0 mb-8 lg:mb-0" xmlns="http://www.w3.org/2000/svg" width="171" height="56" viewBox="0 0 171 56" fill="none">
@@ -2402,7 +2402,7 @@ $data = get_fields();
         </div>
     </div>
 </footer>
-
+<!-- footer end -->
 
 <?php
 get_footer();

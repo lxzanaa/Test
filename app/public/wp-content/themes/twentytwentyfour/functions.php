@@ -31,8 +31,9 @@ add_action( 'after_setup_theme', 'ipro_setup' );
  */
 function ipro_scripts() {
 	wp_enqueue_style( 'ipro-swiper', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css', array(), IPRO_VERSION );
-	wp_enqueue_style( 'ipro-tailstyle', get_template_directory_uri() . '/assets/styles/tailwind-styles.css', array(), IPRO_VERSION );
-	wp_enqueue_style( 'ipro-animation', get_template_directory_uri() . '/assets/styles/animation.css', array(), IPRO_VERSION );
+	wp_enqueue_style( 'ipro-tailstyle', get_template_directory_uri() . '/assets/css/styles.css', array(), IPRO_VERSION );
+	wp_enqueue_style( 'ipro-animate-min', get_template_directory_uri() . '/assets/css/animate.min.css', array(), IPRO_VERSION );
+	wp_enqueue_style( 'ipro-animation', get_template_directory_uri() . '/assets/css/animation.css', array(), IPRO_VERSION );
 	wp_enqueue_style( 'ipro-style', get_stylesheet_uri(), array(), IPRO_VERSION );
 
 	wp_enqueue_script( 'ipro-tailwind', 'https://cdn.tailwindcss.com', array(), IPRO_VERSION, false );
