@@ -1,5 +1,5 @@
 <?php
-// Template name: Portfolio rus
+// Template name: About eng
 
 get_header();
 
@@ -7,9 +7,11 @@ $data = get_fields();
 
 ?>
 
+
+
 <header class="fixed top-0 left-0 right-0 z-50 w-full pt-9 pb-7 bg-[#1d1d1e]" >
     <div class="max-w-[1322px] mx-auto px-5 flex items-center justify-between">
-      <a href="/index-ru/" class="flex">
+      <a href="/index-eng/" class="flex">
         <svg xmlns="http://www.w3.org/2000/svg" width="99" height="32" viewBox="0 0 99 32" fill="none">
           <g clip-path="url(#clip0_129_4648)">
             <path
@@ -88,20 +90,20 @@ $data = get_fields();
       </a>
       <div class="items-center ml-auto gap-10 hidden lg:flex">
         <ul class="flex gap-10 items-center">
-          <li><a class="text-white text-base font-semibold" href="/index-ru/">Главная страница </a></li>
-          <li><a class="text-white text-base font-semibold" href="/services-ru/">Услуги</a></li>
-          <li><a class="text-white text-base font-semibold" href="/news-ru/">Новости</a></li>
-          <li><a class="text-white text-base font-semibold" href="/employees-ru/">Сотрудники</a></li>
-          <li><a class="text-white text-base font-semibold" href="/elonlar-ru/">Вакансия</a></li>
+          <li><a class="text-white text-base font-semibold" href="/index-eng">Homepage </a></li>
+          <li><a class="text-white text-base font-semibold" href="/services-eng/">Services</a></li>
+          <li><a class="text-white text-base font-semibold" href="/news-eng/">News</a></li>
+          <li><a class="text-white text-base font-semibold" href="/employees-eng/">Employees</a></li>
+          <li><a class="text-white text-base font-semibold" href="/elonlar-eng/">Vacancy</a></li>
         </ul>
         <a class="text-[#D9FFFF] text-sm font-bold  bg-[#0086EE] rounded-lg py-2.5 px-12 border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all"
-          style="box-shadow: 0px 1px 14px -4px #016079;" href="/index-ru/#contact">Связь</a>
+          style="box-shadow: 0px 1px 14px -4px #016079;" href="/index-eng/#contact">Connection</a>
        
         
       </div>
       <div class="flex flex-col relative lg:ml-5 ml-auto mr-5 lg:mr-0">
         <button id="select-btn" class=" flex items-center gap-3 py-2 px-2.5 border border-[#5D5D5D] rounded-lg">
-          <span class="text-white text-sm font-semibold">RU</span>
+          <span class="text-white text-sm font-semibold">EN</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="26" height="24" viewBox="0 0 26 24" fill="none">
             <path
               d="M3.19863 11H5.23523C6.39178 11 7.32935 11.8954 7.32935 13V14C7.32935 15.1046 8.26692 16 9.42347 16C10.58 16 11.5176 16.8954 11.5176 18V20.9451M8.37641 3.93552V5.5C8.37641 6.88071 9.54837 8 10.9941 8H11.5176C12.6741 8 13.6117 8.89543 13.6117 10C13.6117 11.1046 14.5493 12 15.7058 12C16.8624 12 17.7999 11.1046 17.7999 10C17.7999 8.89543 18.7375 8 19.8941 8L21.0086 8M15.7058 20.4879V18C15.7058 16.8954 16.6434 16 17.7999 16H21.0086M21.9882 12C21.9882 16.9706 17.7691 21 12.5646 21C7.36017 21 3.14111 16.9706 3.14111 12C3.14111 7.02944 7.36017 3 12.5646 3C17.7691 3 21.9882 7.02944 21.9882 12Z"
@@ -109,8 +111,8 @@ $data = get_fields();
           </svg>
         </button>
         <ul class="select-menu hidden absolute top-12 left-0 w-full items-center justify-center flex-col gap-1 mt-1">
-          <li class="w-full"><a class="option border border-[#5D5D5D] text-white font-bold p-2.5 w-full block rounded-lg text-sm" href="/portfolio/">UZ</a></li>
-          <li class="w-full"><a class="option border border-[#5D5D5D] text-white font-bold p-2.5 w-full block rounded-lg text-sm" href="/portfolio-eng/">EN</a></li>
+          <li class="w-full"><a class="option border border-[#5D5D5D] text-white font-bold p-2.5 w-full block rounded-lg text-sm" href="/about/">UZ</a></li>
+          <li class="w-full"><a class="option border border-[#5D5D5D] text-white font-bold p-2.5 w-full block rounded-lg text-sm" href="/about-ru/">RU</a></li>
         </ul>
      
       </div>
@@ -126,61 +128,98 @@ $data = get_fields();
       </div>  
       <div class="flex flex-col items-center justify-center pt-24">
         <ul class="flex flex-col gap-10 items-center mb-8">
-          <li><a class="text-white text-base font-semibold" href="/index-ru/">Главная страница </a></li>
-          <li><a class="text-white text-base font-semibold" href="/services-ru/">Услуги</a></li>
-          <li><a class="text-white text-base font-semibold" href="/news-ru/">Новости</a></li>
-          <li><a class="text-white text-base font-semibold" href="/employees-ru/">Сотрудники</a></li>
-          <li><a class="text-white text-base font-semibold" href="/elonlar-ru/">Вакансия</a></li>
+          <li><a class="text-white text-base font-semibold" href="/index-eng/">Homepage </a></li>
+          <li><a class="text-white text-base font-semibold" href="/services-eng/">Services</a></li>
+          <li><a class="text-white text-base font-semibold" href="/news-eng/">News</a></li>
+          <li><a class="text-white text-base font-semibold" href="/employees-eng/">Employees</a></li>
+          <li><a class="text-white text-base font-semibold" href="/elonlar-eng/">Vacancy</a></li>
         </ul>
         <a class="text-[#D9FFFF] text-sm font-bold  bg-[#0086EE] rounded-lg py-2.5 px-12 border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all"
-          style="box-shadow: 0px 1px 14px -4px #016079;" href="/index-ru/#contact">Связь</a>
+          style="box-shadow: 0px 1px 14px -4px #016079;" href="/index-eng/#contact">Connection</a>
 
       </div>
     </div>
   </header>
+
 <div class="pt-24"></div>
 
 
 
 
-<section class="bg-[#141415] pt-16 pb-16">
-    <div class="max-w-[1322px] mx-auto px-5">
-      <style>
-        h1::after {
-          text-shadow: 0 0 2px rgba(255, 255, 255, 0.25);
-        }
-      </style>
-      <h1
-        class="md:text-[64px] text-4xl font-semibold text-white  text-center mb-24 relative after:text-[#141415] after:content-['Porfolio'] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:block after:text-[58px] md:after:text-[128px] after:z-10 uppercase">
-        <span class="relative z-30">Porfolio</span></h1>
-      <div class="grid grid-cols-4 grid-rows-2 h-[483px] gap-5">
-        <a href="#"
-          class="col-span-2 row-span-2 relative w-full h-full shrink-0  rounded-2xl bg-[linear-gradient(118deg,rgba(0,134,238,0.63)0%,rgba(0,0,0,0.54)43.8%),url('<?php echo get_template_directory_uri(); ?>/assets/img/porfolio/1.png')]">
-          <span class="absolute bottom-8 right-8 text-white portfolio-item-text font-bold  ">DIGITALFINGERS
-            MYBOOK.UZ</span>
-        </a>
-        <a href="#"
-          class="col-span-1 row-span-1 relative w-full h-full shrink-0 rounded-2xl bg-[linear-gradient(118deg,rgba(0,134,238,0.63)0%,rgba(0,0,0,0.54)43.8%),url('<?php echo get_template_directory_uri(); ?>/assets/img/porfolio/1.png')]">
-          <span class="absolute bottom-8 right-8 text-white portfolio-item-text font-bold  ">
-            MYBOOK.UZ</span>
-        </a>
-        <a href="#"
-          class="col-span-1 row-span-2 relative w-full h-full shrink-0 rounded-2xl bg-[linear-gradient(118deg,rgba(0,134,238,0.63)0%,rgba(0,0,0,0.54)43.8%),url('<?php echo get_template_directory_uri(); ?>/assets/img/porfolio/1.png')]">
-          <span class="absolute bottom-8 right-8 text-white portfolio-item-text font-bold  ">
-            </span>
-        </a>
-        <a href="#"
-          class="col-span-1 row-span-1  relative w-full h-full shrink-0  rounded-2xl bg-[linear-gradient(118deg,rgba(0,134,238,0.63)0%,rgba(0,0,0,0.54)43.8%),url('<?php echo get_template_directory_uri(); ?>/assets/img/porfolio/1.png')]">
-          <span class="absolute bottom-8 right-8 text-white portfolio-item-text font-bold  ">
-            MYBOOK.UZ
-           </span>
-        </a>
+<section class="pt-10 pb-[264px]">
+    <div class="max-w-[1322px] mx-auto px-5 relative">
+      <div class="flex justify-center mb-20" >
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-about.svg" alt="about logo">
       </div>
+      <div class="max-w-[760px]" >
+        <h2 class="text-white text-[32px] font-bold leading-tight mb-8">About IPRO</h2>
+        <p class="text-white text-2xl mb-16">iPRO IT and M&M group ga 2021-yil 22-iyul sanasida asos solingan. Shu
+          kundan boshlab professional ish faoliyatini boshlagan. Shu kungacha ko'plab brenlar bilan ishlagan va ishlab
+          kelmoqda!
+          Kompaniya tashkil etilgan paytda jamoa atigi 10 kishidan iborat edi, endilikda esa jamoada +100 mutaxassislar
+          faoliyat olib boradi. Bu odamlar kompaniya maqsadiga ishonib, loyihaning rivojlanishiga hissa qo'shishga
+          intilishdi. Bugungi kunga qadar bu odamlar kompaniyaga sodiq qolgan holda, o'z jamoalarini turli
+          yo'nalishlarda (Backend, Frontend, QA, Mobile, Analytics, Marketing Team va boshqalar) rivojlantirib
+          kelmoqdalar.iPRO IT and M&M group ga 2021-yil 22-iyul sanasida asos solingan. Shu kundan boshlab professional
+          ish faoliyatini boshlagan. Shu kungacha ko'plab brenlar bilan ishlagan va ishlab kelmoqda!
+        </p>
+        <a href="/index/#contact"
+          class="py-3 px-12 rounded-lg bg-[#0086EE] shadow-about-btn text-[#D9FFFF] text-sm font-bold">Connection</a>
 
-
-
+      </div>
+      <div hidden
+        class="w-[832px] h-[832px] border-[66px] border-[#0086EE] rounded-full shadow-about-disc absolute top-[180px] -right-[487px]">
+        <div class="w-[430px] h-[113px] bg-[#0F4A78] flex items-center relative">
+          <div class="absolute top-0 left-0 flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="121" height="113" viewBox="0 0 121 113" fill="none">
+              <path
+                d="M18.2359 60.4448C16.8489 57.9978 16.849 55.0022 18.2359 52.5552L28.9443 33.6625L39.9517 14.9424C41.3773 12.5178 43.9716 11.02 46.7843 10.9976L68.5 10.825L90.2158 10.9976C93.0284 11.02 95.6227 12.5178 97.0483 14.9424L108.056 33.6625L118.764 52.5552C120.151 55.0022 120.151 57.9978 118.764 60.4448L108.056 79.3375L97.0483 98.0576C95.6227 100.482 93.0284 101.98 90.2158 102.002L68.5 102.175L46.7843 102.002C43.9716 101.98 41.3773 100.482 39.9517 98.0576L28.9443 79.3375L18.2359 60.4448Z"
+                fill="white" fill-opacity="0.69" />
+              <g filter="url(#filter0_d_1103_413)">
+                <path
+                  d="M-32.7641 60.4448C-34.151 57.9978 -34.151 55.0022 -32.7641 52.5552L-18.1108 26.7025L-3.04835 1.08601C-1.62266 -1.33862 0.971602 -2.83643 3.78425 -2.85878L33.5 -3.095L63.2157 -2.85878C66.0284 -2.83643 68.6227 -1.33863 70.0483 1.08602L85.1108 26.7025L99.7641 52.5552C101.151 55.0022 101.151 57.9978 99.7641 60.4448L85.1108 86.2975L70.0483 111.914C68.6227 114.339 66.0284 115.836 63.2157 115.859L33.5 116.095L3.78426 115.859C0.971607 115.836 -1.62266 114.339 -3.04834 111.914L-18.1108 86.2975L-32.7641 60.4448Z"
+                  fill="#0F4A78" />
+              </g>
+              <defs>
+                <filter id="filter0_d_1103_413" x="-39.8043" y="-11.095" width="150.609" height="135.19"
+                  filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dx="2" />
+                  <feGaussianBlur stdDeviation="4" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.78 0" />
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1103_413" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1103_413" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+          
+          <div class="pl-[133px]">
+            <h3 class="mb-1 text-white text-lg font-semibold">Ux/Ui dizayn</h3>
+            <p class="text-white text-xs">Bu soha bo’yicha batafsil ma’lumotni bilib oling.Videoni tomosha qiling</p>
+          </div>
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="30" cy="30" r="30" fill="white" fill-opacity="0.65" />
+            <circle cx="30" cy="30" r="25" fill="white" fill-opacity="0.7" />
+            <circle cx="30" cy="30" r="20" fill="white" />
+            <g clip-path="url(#clip0_717_2525)">
+              <path d="M27 37.5L34.5 30L27 22.5V37.5Z" fill="#0186EF" />
+            </g>
+            <defs>
+              <clipPath id="clip0_717_2525">
+                <rect width="36" height="36" fill="white" transform="translate(12 12)" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+      </div>
     </div>
   </section>
+
+
 
  <!-- footer start -->
  <footer class="py-16 bg-[#1D1D1D]">
@@ -218,7 +257,7 @@ $data = get_fields();
 
         <div class="flex md:gap-28 gap-8 flex-col md:flex-row">
             <div class="md:max-w-[252px]">
-                <h3 class="text-xl text-white font-bold mb-7">Связаться</h3>
+                <h3 class="text-xl text-white font-bold mb-7">Get in touch</h3>
                 <ul class="flex flex-col gap-7">
                     <li class="flex gap-5 items-center"><svg xmlns="http://www.w3.org/2000/svg" height="25" width="24" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
                             <path d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z" />
@@ -245,21 +284,21 @@ $data = get_fields();
                         <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0" height="25" width="22 " viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
                             <path fill="#ffffff" d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
                         </svg>
-                        <a class="text-white text-base font-semibold hover:text-[#0086EE] transition-all" href="tel:+998902252025">ул. А. Фитрата, 8, г. Андижан, Узбекистан</a>
+                        <a class="text-white text-base font-semibold hover:text-[#0086EE] transition-all" href="tel:+998902252025">8, A. Fitrat street, Andijan city, Uzbekistan</a>
                     </li>
                 </ul>
             </div>
             <div class="md:max-w-[249px]">
-                <h3 class="text-xl text-white font-bold mb-7">Ссылки</h3>
+                <h3 class="text-xl text-white font-bold mb-7">Links</h3>
                 <ul class="flex flex-col gap-4">
-                    <li><a class="text-base font-semibold text-white hover:text-[#0086EE] transition-all" href="/news/">Новости</a></li>
-                    <li><a class="text-base font-semibold text-white hover:text-[#0086EE] transition-all" href="/services/">Услуги</a></li>
-                    <li><a class="text-base font-semibold text-white hover:text-[#0086EE] transition-all" href="/employees/">Сотрудники</a></li>
-                    <li><a class="text-base font-semibold text-white hover:text-[#0086EE] transition-all" href="/elonlar/">Вакансия</a></li>
+                    <li><a class="text-base font-semibold text-white hover:text-[#0086EE] transition-all" href="/news/">News</a></li>
+                    <li><a class="text-base font-semibold text-white hover:text-[#0086EE] transition-all" href="/services/">Services</a></li>
+                    <li><a class="text-base font-semibold text-white hover:text-[#0086EE] transition-all" href="/employees/">Employees</a></li>
+                    <li><a class="text-base font-semibold text-white hover:text-[#0086EE] transition-all" href="/elonlar/">Vacancy</a></li>
                 </ul>
             </div>
             <div>
-                <h3 class="text-xl text-white font-bold mb-7">Социальные сети</h3>
+                <h3 class="text-xl text-white font-bold mb-7">Social networks</h3>
                 <ul class="flex gap-4 items-center">
                     <li><a href="#" class="bg-white social-hover  w-10 h-10 rounded-full flex items-center justify-center text-xl pt-[2px]"><i class="fa-brands fa-youtube"></i></a></li>
                     <li><a href="#" class="bg-white w-10 social-hover  h-10 rounded-full flex items-center justify-center text-xl pt-[2px]">
@@ -276,7 +315,6 @@ $data = get_fields();
     </div>
 </footer>
 <!-- footer end -->
-
 
 
 <?php

@@ -110,8 +110,7 @@ $data = get_fields();
 <section class="pt-[148px] pb-[512px] overflow-hidden">
     <div class="max-w-[1322px] mx-auto px-5 relative">
         <img class="absolute -bottom-[400px] md:-top-24 -right-2 lg:h-[741px] h-[330px] -z-20" src="<?php echo get_template_directory_uri(); ?>/assets/img/hero-bg.png" alt="">
-        <h2 class="text-white text-3xl font-semibold uppercase mb-10">IT mutaxassislaridan qulayliklarni <br>
-            taklif qilamiz</h2>
+        <h2 class="text-white text-3xl font-semibold uppercase mb-10"><?= $data['hero']['title']  ?></h2>
         <a href="/about/" style="box-shadow: 0px 1px 14px -4px #0286EF;" class="text-white inline-block font-bold text-sm bg-[#0186EF]  rounded-lg py-3 px-16 border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Batafsil</a>
     </div>
 </section>
@@ -1195,18 +1194,15 @@ $data = get_fields();
     </div>
 </marquee>
 
-
-
-
 <!-- news section -->
 <section id="news" class="bg-[#141415] pt-16 pb-16">
     <div class="max-w-[1322px] mx-auto px-5">
-        <h2 class="text-4xl font-bold text-white mb-8">Yangiliklar</h2>
+        <h2 class="text-4xl font-bold text-white mb-8"><?= $data['news']['title']  ?></h2>
         <div class="grid md:grid-cols-2 grid-cols-1 gap-5">
             <a href="#news" style="background-image:  linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(2, 134, 239, 0.40) 341.42%) , url(<?php echo get_template_directory_uri(); ?>/assets/img/news/news-bg-card.png)" class="card-hover bg-cover flex flex-col items-center text-center pt-16 md:pb-[364px] pb-60">
                 <img class="mb-[105px]" src="<?php echo get_template_directory_uri(); ?>/assets/img/ipro-logo.svg" alt="logo">
 
-                <h3 class="text-white text-[40px] font-semibold"> TEZ kunda...<span class="text-[32px] text-[#FFC700]"> </span>
+                <h3 class="text-white text-[40px] font-semibold"><?= $data['news']['elon']  ?><span class="text-[32px] text-[#FFC700]"> </span>
 
                 </h3>
             </a>
@@ -1214,41 +1210,29 @@ $data = get_fields();
                 <a href="#news" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-1.jpg" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
-                        <time class="text-sm text-white font-bold mb-2">10.11.2023</time>
-                        <p class="text-white text-sm ">Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning
-                            ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID,
-                            DTM,
-                            ko‘plab</p>
+                        <time class="text-sm text-white font-bold mb-2"><?= $data['news']['card_1']['data']  ?></time>
+                        <p class="text-white text-sm "><?= $data['news']['card_1']['text']  ?></p>
                     </div>
                 </a>
                 <a href="#news" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-2.jpg" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
-                        <time class="text-sm text-white font-bold mb-2">10.11.2023</time>
-                        <p class="text-white text-sm ">Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning
-                            ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID,
-                            DTM,
-                            ko‘plab</p>
+                        <time class="text-sm text-white font-bold mb-2"><?= $data['news']['card_2']['data']  ?></time>
+                        <p class="text-white text-sm "><?= $data['news']['card_2']['text']  ?></p>
                     </div>
                 </a>
                 <a href="#news" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-3.jpg" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
-                        <time class="text-sm text-white font-bold mb-2">10.11.2023</time>
-                        <p class="text-white text-sm ">Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning
-                            ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID,
-                            DTM,
-                            ko‘plab</p>
+                        <time class="text-sm text-white font-bold mb-2"><?= $data['news']['card_3']['data']  ?></time>
+                        <p class="text-white text-sm "><?= $data['news']['card_3']['text']  ?></p>
                     </div>
                 </a>
                 <a href="#news" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-5.jpg" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
-                        <time class="text-sm text-white font-bold mb-2">10.11.2023</time>
-                        <p class="text-white text-sm ">Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning
-                            ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID,
-                            DTM,
-                            ko‘plab</p>
+                        <time class="text-sm text-white font-bold mb-2"><?= $data['news']['card_4']['data']  ?></time>
+                        <p class="text-white text-sm "><?= $data['news']['card_4']['text']  ?></p>
                     </div>
                 </a>
             </div>
@@ -1258,28 +1242,31 @@ $data = get_fields();
 
 <!-- hamkorlar  -->
 <section id="section_counter" class="py-16 bg-[#141415]">
-    <h2 class="hidden">HODIMLAR</h2>
-    <div class="max-w-[1322px] mx-auto px-5 flex justify-center flex-wrap list-disc md:[&>*:last-child]:pr-0 md:[&>*:last-child]:border-none gap-10">
-        <div class="text-center pr-10 md:border-r border-[#fff] counter-item ">
-            <h3 class="text-3xl font-normal text-white">Proyectlar</h3>
-            <b data-target="500" class="text-[40px] font-bold text-white counter">500</b>
-            <strong class="text-[40px] font-bold text-white">+</strong>
-        </div>
-
-        <div class="text-center pr-10 md:border-r border-[#fff] counter-item ">
-            <h3 class="text-3xl font-normal text-white">Hodim</h3>
-            <b data-target="35" class="text-[40px] font-bold text-white counter">35</b>
-            <strong class="text-[40px] font-bold text-white">+</strong>
-        </div>
-
+    <h2 class="hidden"><?= $data['about']['main_title']  ?></h2>
+    <div
+      class="max-w-[1322px] mx-auto px-5 flex justify-center flex-wrap list-disc md:[&>*:last-child]:pr-0 md:[&>*:last-child]:border-none gap-10">
+      <div class="text-center pr-10 md:border-r border-[#fff] counter-item ">
+        <h3 class="text-3xl font-normal text-white"><?= $data['about']['title_1']  ?></h3>
+        <b data-target="<?= $data['about']['text_1']  ?>" class="text-[40px] font-bold text-white counter"><?= $data['about']['text_1']  ?></b>
+      </div>
+      <div class="text-center pr-10 md:border-r border-[#fff] counter-item ">
+        <h3 class="text-3xl font-normal text-white"><?= $data['about']['title_2']  ?></h3>
+        <b data-target="<?= $data['about']['text_2']  ?>" class="text-[40px] font-bold text-white counter"><?= $data['about']['text_2']  ?></b>
+      </div>
+      <div class="text-center pr-10 md:border-r border-[#fff] counter-item ">
+        <h3 class="text-3xl font-normal text-white"><?= $data['about']['title_3']  ?></h3>
+        <b data-target="<?= $data['about']['text_3']  ?>" class="text-[40px] font-bold text-white counter"><?= $data['about']['text_3']  ?></b>
+      </div>
+      
     </div>
-</section>
+  </section>
 
 
-<!-- Xizmatlarimiz -->
+
+<!-- Xizmatlarimiz start -->
 <section class="bg-[#141415] pt-16 pb-16">
     <div class="max-w-[1322px] mx-auto px-5">
-        <h2 class="text-white text-4xl font-semibold mb-8">Xizmatlarimiz</h2>
+        <h2 class="text-white text-4xl font-semibold mb-8"><?= $data['xizmatlarimiz']['main_title']  ?></h2>
         <div class="grid lg:grid-cols-3 gap-5 md:grid-cols-2 grid-cols-1">
             <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-9 pb-5 relative overflow-hidden rounded-lg flex flex-col hover:shadow-[0 0 10px #0086EE4D]">
                 <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
@@ -1294,11 +1281,8 @@ $data = get_fields();
                         </filter>
                     </defs>
                 </svg>
-                <h3 class="text-xl text-white font-bold mb-5 capitalize">Ux&UI dizayn</h3>
-                <p class="text-sm text-white leading-snug mb-[56px]">Oddiy so‘zlar bilan aytganda, foydalanuvchi interfeys
-                    bilan qanday aloqada bo‘lishi va sayt yoki dastur ular uchun qanchalik qulay ekanligi. Ux / UI dizaynerlari
-                    IT sohasida talabga ega, chunki dasturchilar tayyorlaydigan interfeyslar nafaqat chiroyli, balki tushunarli
-                    bo‘lishi kerak.</p>
+                <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_1']['title']  ?></h3>
+                <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_1']['text']  ?></p>
                 <div class="flex gap-2 relative z-10 mt-auto">
                     <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma
                         berish</a>
@@ -1319,10 +1303,8 @@ $data = get_fields();
                         </filter>
                     </defs>
                 </svg>
-                <h3 class="text-xl text-white font-bold mb-5 capitalize">Grafik dizayn</h3>
-                <p class="text-sm text-white leading-snug mb-[56px]">Grafik dizayn-uyg‘un va samarali vizual-aloqa muhitini
-                    yaratish bo‘yicha badiiy va dizayn faoliyati. Boshqa tomondan, grafik dizayn bu maʼlumotni taqdim etish
-                    uchun matn, rasm yoki xabarni targ‘ib qilish yordamida vizual aloqa shakli.</p>
+                <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_2']['title']  ?></h3>
+                <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_2']['text']  ?></p>
                 <div class="flex gap-2 relative z-10 mt-auto">
                     <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma
                         berish</a>
@@ -1343,10 +1325,8 @@ $data = get_fields();
                         </filter>
                     </defs>
                 </svg>
-                <h3 class="text-xl text-white font-bold mb-5 capitalize">SMM</h3>
-                <p class="text-sm text-white leading-snug mb-[56px]">SMM — ijtimoiy media marketingini anglatadi. SMM ning
-                    maqsadi Telegram, VKontakte, Facebook, Instagram va boshqa ijtimoiy saytlardan mijozlarni jalb qilishdir.
-                    SMMning yana bir muhim vazifasi brend xabardorligini oshirish va obro ʼ — eʼtibori ustida ishlashdir.</p>
+                <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_3']['title']  ?></h3>
+                <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_3']['text']  ?></p>
                 <div class="flex gap-2 relative z-10 mt-auto">
                     <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma
                         berish</a>
@@ -1367,12 +1347,8 @@ $data = get_fields();
                         </filter>
                     </defs>
                 </svg>
-                <h3 class="text-xl text-white font-bold mb-5 capitalize">Promo video</h3>
-                <p class="text-sm text-white leading-snug mb-[56px]">Promo video — bu mahsulotni sotishga qaratilgan video. U
-                    mahsulot, xizmat yoki xizmatning raqobatchilarga nisbatan afzalliklarini yetkazish yoki mahsulotga bo‘lgan
-                    ehtiyojni isteʼmolchiga ko‘rsatish uchun ishlatiladi. Shunday qilib, reklama-bu potensial isteʼmolchiga
-                    taʼsir qilish uchun eng muhim maʼlumotlarni video formatida taqdim etadigan kompaniya, mahsulot yoki xizmat
-                    uchun reklama.</p>
+                <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_4']['title']  ?></h3>
+                <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_4']['text']  ?></p>
                 <div class="flex gap-2 relative z-10 mt-auto">
                     <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma
                         berish</a>
@@ -1393,10 +1369,8 @@ $data = get_fields();
                         </filter>
                     </defs>
                 </svg>
-                <h3 class="text-xl text-white font-bold mb-5 capitalize">Motion design</h3>
-                <p class="text-sm text-white leading-snug mb-[56px]">Motion design-bu estetik va jozibali vizual echimlarni
-                    yaratish uchun animatsiya, video tahrirlash va boshqa texnikaning asoslarini birlashtirgan dizayn sohasi.
-                </p>
+                <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_5']['title']  ?></h3>
+                <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_5']['text']  ?></p>
                 <div class="flex gap-2 relative z-10 mt-auto">
                     <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma
                         berish</a>
@@ -1417,11 +1391,8 @@ $data = get_fields();
                         </filter>
                     </defs>
                 </svg>
-                <h3 class="text-xl text-white font-bold mb-5 capitalize">Video montaj</h3>
-                <p class="text-sm text-white leading-snug mb-[56px]">Video montaj-bu bitta va bitta asarga olib keladigan
-                    video materiallarni qayta ishlash jarayoni: film, video, teleko‘rsatuv, musiqiy video yoki reklama. Kino va
-                    video ishlab chiqarishda montaj qilish suratga olish jarayonining o‘zi kabi muhimdir. O‘rnatish tufayli siz
-                    kerakli atmosfera va hikoya ritmini o‘rnatishingiz mumkin.</p>
+                <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_6']['title']  ?></h3>
+                <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_6']['text']  ?></p>
                 <div class="flex gap-2 relative z-10 mt-auto">
                     <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma
                         berish</a>
@@ -1442,10 +1413,8 @@ $data = get_fields();
                         </filter>
                     </defs>
                 </svg>
-                <h3 class="text-xl text-white font-bold mb-5 capitalize">Telegram botlar</h3>
-                <p class="text-sm text-white leading-snug mb-[56px]">Telegram botlar — bu messenjer ichidagi mini dasturlar
-                    bo‘lib, ular suhbatdagi matn buyruqlari tomonidan savol-javob asosida boshqariladi. Bu turdagi botlar sizga
-                    yana-da qulaylik beradi va vaqtingizni tejashga sabab bo‘ladi.</p>
+                <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_7']['title']  ?></h3>
+                <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_7']['text']  ?></p>
                 <div class="flex gap-2 relative z-10 mt-auto">
                     <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma
                         berish</a>
@@ -1466,10 +1435,8 @@ $data = get_fields();
                         </filter>
                     </defs>
                 </svg>
-                <h3 class="text-xl text-white font-bold mb-5 capitalize">WEB dastulash deb qoying!</h3>
-                <p class="text-sm text-white leading-snug mb-[56px]">Web dasturlash - bu internetda ishlaydigan saytlar va
-                    xizmatlarni ishlab chiqish. Masalan, do‘konlar, axborot resurslari, ochilish sahifalari, onlayn
-                    kinoteatrlar, forumlar.</p>
+                <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_8']['title']  ?></h3>
+                <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_8']['text']  ?></p>
                 <div class="flex gap-2 relative z-10 mt-auto">
                     <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma
                         berish</a>
@@ -1490,10 +1457,8 @@ $data = get_fields();
                         </filter>
                     </defs>
                 </svg>
-                <h3 class="text-xl text-white font-bold mb-5 capitalize">Mobil dasturlar deb qoying!</h3>
-                <p class="text-sm text-white leading-snug mb-[56px]">Mobil dasturlar - bu sizning smartfoningizda (IOS|
-                    ANDROID) ish faoliyatida bo'lgan xar-xil turdagi ilovalar, oyin, elektron kitob va boshqa turdagi
-                    dasturlardur!</p>
+                <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_9']['title']  ?></h3>
+                <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_9']['text']  ?></p>
                 <div class="flex gap-2 relative z-10 mt-auto">
                     <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma
                         berish</a>
@@ -1514,11 +1479,8 @@ $data = get_fields();
                         </filter>
                     </defs>
                 </svg>
-                <h3 class="text-xl text-white font-bold mb-5 capitalize">SEO</h3>
-                <p class="text-sm text-white leading-snug mb-[56px]">SEO (Search Engine Optimization-qidiruv tizimlari uchun
-                    saytni optimallashtirish) - bu qidiruv tizimlari uchun sayt ahamiyatini oshirishga yordam beradigan usullar
-                    to‘plami. O‘z mohiyatiga ko‘ra, SEO-bu saytni top-10da reklama qilish uchun tavsiya etilgan bir qator
-                    vazifalar jamlanmasidir. Bu yangi auditoriyani jalb qilishga imkon.</p>
+                <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_10']['title']  ?></h3>
+                <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_10']['text']  ?></p>
                 <div class="flex gap-2 relative z-10 mt-auto">
                     <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma
                         berish</a>
@@ -1539,11 +1501,8 @@ $data = get_fields();
                         </filter>
                     </defs>
                 </svg>
-                <h3 class="text-xl text-white font-bold mb-5 capitalize">Targeting</h3>
-                <p class="text-sm text-white leading-snug mb-[56px]">Targeting - bu tarmoqning barcha foydalanuvchilaridan
-                    CA-ni ma'lum mezonlarga muvofiq ajratib olish va RC-dan maksimal ta'sirga erishish uchun o'z mahsulotlarini
-                    reklama qilish imkonini beradigan marketing mexanizmi xisoblanadi . Maqsad CA uchun reklama xabarini
-                    yaratish va uning samaradorligini oshirishdir</p>
+                <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_11']['title']  ?></h3>
+                <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_11']['text']  ?></p>
                 <div class="flex gap-2 relative z-10 mt-auto">
                     <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma
                         berish</a>
@@ -1564,10 +1523,8 @@ $data = get_fields();
                         </filter>
                     </defs>
                 </svg>
-                <h3 class="text-xl text-white font-bold mb-5 capitalize">Marketing</h3>
-                <p class="text-sm text-white leading-snug mb-[56px]">Marketing - tashkiliy funksiya va xaridorlarga mahsulot
-                    yoki xizmatni yaratish, targ‘ib qilish va taqdim etish va ular bilan munosabatlarni tashkilot uchun foyda
-                    bilan boshqarish hisoblanadi.</p>
+                <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_12']['title']  ?></h3>
+                <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_12']['text']  ?></p>
                 <div class="flex gap-2 relative z-10 mt-auto">
                     <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma
                         berish</a>
@@ -1578,32 +1535,32 @@ $data = get_fields();
         </div>
     </div>
 </section>
+<!-- Xizmatlarimiz end -->
 
 <section class="pt-14 pb-9 bg-[#141415]">
     <div class="max-w-[880px] mx-auto px-5 grid md:grid-cols-4 grid-cols-2 gap-6 justify-center">
         <div class="flex flex-col md:justify-center">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/quality/img-2.svg" alt="img">
-            <p class="px-4 text-sm text-white leading-snug text-center -translate-y-4 bg-[#141415]">Biz bilan hammasi
-                <b class="uppercase">juda oson</b>
+            <p class="px-4 text-sm text-white leading-snug text-center -translate-y-4 bg-[#141415]"><?= $data['about_us']['title_1']  ?>
+                <b class="uppercase"><?= $data['about_us']['title_bold_1']  ?></b>
             </p>
         </div>
         <div class="flex flex-col md:justify-center">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/quality/img-1.svg" alt="img">
-            <p class="px-4 text-sm text-white leading-snug text-center -translate-y-4 bg-[#141415]">Biznesingizni yanada
-                <b class="uppercase">RIVOJLANTIRING</b>
+            <p class="px-4 text-sm text-white leading-snug text-center -translate-y-4 bg-[#141415]"><?= $data['about_us']['title_1']  ?>
+                <b class="uppercase"><?= $data['about_us']['title_bold_2']  ?></b>
             </p>
         </div>
         <div class="flex flex-col md:justify-center">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/quality/img-4.svg" alt="img">
-            <p class="px-4 text-sm text-white leading-snug text-center -translate-y-4 bg-[#141415]">Dunyo bozorida o’z
-                o’rningizni
-                <b class="uppercase"> EGALLANG</b>
+            <p class="px-4 text-sm text-white leading-snug text-center -translate-y-4 bg-[#141415]"><?= $data['about_us']['title_1']  ?>
+                <b class="uppercase"> <?= $data['about_us']['title_bold_3']  ?></b>
             </p>
         </div>
         <div class="flex flex-col md:justify-center">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/quality/img-3.svg" alt="img">
-            <p class="px-4 text-sm text-white leading-snug text-center -translate-y-4 bg-[#141415]">SIZ bizni tanlab
-                <b class="uppercase">ADASHMADINGIZ</b>
+            <p class="px-4 text-sm text-white leading-snug text-center -translate-y-4 bg-[#141415]"><?= $data['about_us']['title_1']  ?>
+                <b class="uppercase"><?= $data['about_us']['title_bold_4']  ?></b>
             </p>
         </div>
     </div>
@@ -1615,14 +1572,14 @@ $data = get_fields();
         <h2 class="text-white text-4xl font-semibold mb-16">Hodimlarimiz</h2>
         <div class="grid lg:grid-cols-4 md:grid-cols-2   gap-5 list-disc lg:[&>*:nth-child(2n)]:-translate-y-20 mb-8 lg:mb-0">
             <div class="h-96 w-full bg-cover py-6 px-3 flex gap-5 bg-center justify-between  items-end relative group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')]">
-                <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span class="block">Abdurauf</span></h3>
-                <p class="font-semibold text-white">Web dasturchi</p>
+                <h3 class="text-xl font-semibold text-white"><?= $data['hodimlarimiz']['card_1']['name']  ?></h3>
+                <p class="font-semibold text-white"><?= $data['hodimlarimiz']['card_1']['position']  ?></p>
                 <div class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-4 px-5 group-hover:translate-y-0 translate-y-full transition-all" style="backdrop-filter: blur(4.5px);">
                     <div class="flex justify-between items-center mb-2">
-                        <h4 class="text-base font-semibold"><span>Azimov </span><span class="font-normal">Yunus</span></h4>
-                        <p class="text-xs text-[#141619]">Grafik dizayner</p>
+                        <h4 class="text-base font-semibold"><?= $data['hodimlarimiz']['card_1']['surname']  ?> <span class="font-normal block" ><?= $data['hodimlarimiz']['card_1']['name_normal']  ?></span></h4>
+                        <p class="text-xs text-[#141619]"><?= $data['hodimlarimiz']['card_1']['position']  ?></p>
                     </div>
-                    <p class="text-xs mb-2">Figma yonalishida 1 yillik tajribaga ega stajer (junior)
+                    <p class="text-xs mb-2"><?= $data['hodimlarimiz']['card_1']['text']  ?>
                     </p>
                     <div class="flex gap-4 items-center">
                         <a href="tel:+998905463326" class="text-lg "><i class="fa-solid fa-phone"></i></i></a>
@@ -1632,15 +1589,16 @@ $data = get_fields();
                     </div>
                 </div>
             </div>
-            <div class="h-96 w-full bg-cover bg-center py-6 px-3 flex gap-5 justify-between items-end relative group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')]">
-                <h3 class="text-xl font-semibold text-white"><span class="block">Alimov</span> <span class="block">Obid</span></h3>
-                <p class="font-semibold text-white">Telegram bot</p>
+            
+            <div class="h-96 w-full bg-cover py-6 px-3 flex gap-5 bg-center justify-between  items-end relative group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')]">
+                <h3 class="text-xl font-semibold text-white"><?= $data['hodimlarimiz']['card_2']['name']  ?></h3>
+                <p class="font-semibold text-white"><?= $data['hodimlarimiz']['card_2']['position']  ?></p>
                 <div class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-4 px-5 group-hover:translate-y-0 translate-y-full transition-all" style="backdrop-filter: blur(4.5px);">
                     <div class="flex justify-between items-center mb-2">
-                        <h4 class="text-base font-semibold"><span>Alimov </span><span class="font-normal">Obid</span></h4>
-                        <p class="text-xs text-[#141619]">Telegram bot</p>
+                        <h4 class="text-base font-semibold"><?= $data['hodimlarimiz']['card_2']['surname']  ?> <span class="font-normal block" ><?= $data['hodimlarimiz']['card_2']['name_normal']  ?></span></h4>
+                        <p class="text-xs text-[#141619]"><?= $data['hodimlarimiz']['card_2']['position']  ?></p>
                     </div>
-                    <p class="text-xs mb-2">Telegram bot yonalishida 6yillik tajribaga ega (middle) mutaxasis
+                    <p class="text-xs mb-2"><?= $data['hodimlarimiz']['card_2']['text']  ?>
                     </p>
                     <div class="flex gap-4 items-center">
                         <a href="tel:+998905463326" class="text-lg "><i class="fa-solid fa-phone"></i></i></a>
@@ -1650,15 +1608,16 @@ $data = get_fields();
                     </div>
                 </div>
             </div>
-            <div class="h-96 w-full bg-cover py-6 px-3 flex gap-5 flex justify-between items-end relative  group bg-center overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/gril-3.webp')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/gril-3.webp')]">
-                <h3 class="text-xl font-semibold text-white"><span class="block">Matmusayeva</span> <span class="block">Zarina</span></h3>
-                <p class="font-semibold text-white text-right">Grafik dizayner</p>
+
+            <div class="h-96 w-full bg-cover py-6 px-3 flex gap-5 bg-center justify-between  items-end relative group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/gril-3.webp')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/gril-3.webp')]">
+                <h3 class="text-xl font-semibold text-white"><?= $data['hodimlarimiz']['card_3']['name']  ?></h3>
+                <p class="font-semibold text-white"><?= $data['hodimlarimiz']['card_3']['position']  ?></p>
                 <div class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-4 px-5 group-hover:translate-y-0 translate-y-full transition-all" style="backdrop-filter: blur(4.5px);">
                     <div class="flex justify-between items-center mb-2">
-                        <h4 class="text-base font-semibold"><span>Matmusayeva </span><span class="font-normal">Zarina</span></h4>
-                        <p class="text-xs text-[#141619]">Grafik dizayner</p>
+                        <h4 class="text-base font-semibold"><?= $data['hodimlarimiz']['card_3']['surname']  ?> <span class="font-normal block" ><?= $data['hodimlarimiz']['card_3']['name_normal']  ?></span></h4>
+                        <p class="text-xs text-[#141619]"><?= $data['hodimlarimiz']['card_3']['position']  ?></p>
                     </div>
-                    <p class="text-xs mb-2">Grafik dizayner yonalishida 5 yillik tajribaga ega (middle dizayner) mutaxasis
+                    <p class="text-xs mb-2"><?= $data['hodimlarimiz']['card_3']['text']  ?>
                     </p>
                     <div class="flex gap-4 items-center">
                         <a href="tel:+998905463326" class="text-lg "><i class="fa-solid fa-phone"></i></i></a>
@@ -1668,15 +1627,16 @@ $data = get_fields();
                     </div>
                 </div>
             </div>
-            <div class="h-96 w-full bg-cover py-6 px-3 flex gap-5 justify-between items-end relative cursor-pointer group bg-center overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')]">
-                <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span class="block">Abdurauf</span></h3>
-                <p class="font-semibold text-white">Web dasturchi</p>
+
+            <div class="h-96 w-full bg-cover py-6 px-3 flex gap-5 bg-center justify-between  items-end relative group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')]">
+                <h3 class="text-xl font-semibold text-white"><?= $data['hodimlarimiz']['card_4']['name']  ?></h3>
+                <p class="font-semibold text-white"><?= $data['hodimlarimiz']['card_4']['position']  ?></p>
                 <div class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-4 px-5 group-hover:translate-y-0 translate-y-full transition-all" style="backdrop-filter: blur(4.5px);">
                     <div class="flex justify-between items-center mb-2">
-                        <h4 class="text-base font-semibold"><span>Abdullayev </span><span class="font-normal">Javoxir</span></h4>
-                        <p class="text-xs text-[#141619]">Grafik dizayner</p>
+                        <h4 class="text-base font-semibold"><?= $data['hodimlarimiz']['card_4']['surname']  ?> <span class="font-normal block" ><?= $data['hodimlarimiz']['card_4']['name_normal']  ?></span></h4>
+                        <p class="text-xs text-[#141619]"><?= $data['hodimlarimiz']['card_4']['position']  ?></p>
                     </div>
-                    <p class="text-xs mb-2">Figma yonalishida 6,5 yillik tajribaga ega (strong middle dizayner) mutaxasis
+                    <p class="text-xs mb-2"><?= $data['hodimlarimiz']['card_4']['text']  ?>
                     </p>
                     <div class="flex gap-4 items-center">
                         <a href="tel:+998905463326" class="text-lg "><i class="fa-solid fa-phone"></i></i></a>
@@ -1701,19 +1661,19 @@ $data = get_fields();
 <!-- vakansiya -->
 <section class="bg-[#141415] pt-8 pb-16">
     <div class="max-w-[1322px] mx-auto px-5">
-        <h2 class="text-white text-4xl font-semibold mb-16">Vakansiya</h2>
+        <h2 class="text-white text-4xl font-semibold mb-16"><?= $data['vakansiya']['main_title']  ?></h2>
         <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-x-5">
-            <a href="/elonlar#form/" class="group rounded-lg">
+            <a href="/elonlar#form" class="group rounded-lg">
                 <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
                     <div class="">
-                        <h3 class="text-sm text-white font-semibold mb-5">Frontend dasturchisi-VueJS, Javascript</h3>
+                        <h3 class="text-sm text-white font-semibold mb-5"><?= $data['vakansiya']['card_1']['text']  ?></h3>
                         <hr class="w-full block bg-white border-none h-px mb-2.5">
                         <div class="flex gap-2 justify-between">
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                         <path d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z" fill="#1D1D1D" />
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">DUSHANBA-SHANBA</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_1']['days']  ?></span>
                             </div>
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -1723,7 +1683,7 @@ $data = get_fields();
                                             </g>
                                         </g>
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">10:00 - 18:00</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_1']['time']  ?></span>
                             </div>
 
 
@@ -1758,17 +1718,17 @@ $data = get_fields();
                     </div>
                 </div>
             </a>
-            <a href="/elonlar#form/" class="group rounded-lg">
+            <a href="/elonlar#form" class="group rounded-lg">
                 <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
                     <div class="">
-                        <h3 class="text-sm text-white font-semibold mb-5">Frontend dasturchisi-VueJS, Javascript</h3>
+                        <h3 class="text-sm text-white font-semibold mb-5"><?= $data['vakansiya']['card_2']['text']  ?></h3>
                         <hr class="w-full block bg-white border-none h-px mb-2.5">
                         <div class="flex gap-2 justify-between">
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                         <path d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z" fill="#1D1D1D" />
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">DUSHANBA-SHANBA</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_2']['days']  ?></span>
                             </div>
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -1778,7 +1738,7 @@ $data = get_fields();
                                             </g>
                                         </g>
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">10:00 - 18:00</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_2']['time']  ?></span>
                             </div>
 
 
@@ -1813,17 +1773,17 @@ $data = get_fields();
                     </div>
                 </div>
             </a>
-            <a href="/elonlar#form/" class="group rounded-lg">
+            <a href="/elonlar#form" class="group rounded-lg">
                 <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
                     <div class="">
-                        <h3 class="text-sm text-white font-semibold mb-5">Frontend dasturchisi-VueJS, Javascript</h3>
+                        <h3 class="text-sm text-white font-semibold mb-5"><?= $data['vakansiya']['card_3']['text']  ?></h3>
                         <hr class="w-full block bg-white border-none h-px mb-2.5">
                         <div class="flex gap-2 justify-between">
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                         <path d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z" fill="#1D1D1D" />
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">DUSHANBA-SHANBA</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_3']['days']  ?></span>
                             </div>
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -1833,7 +1793,7 @@ $data = get_fields();
                                             </g>
                                         </g>
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">10:00 - 18:00</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_3']['time']  ?></span>
                             </div>
 
 
@@ -1868,17 +1828,17 @@ $data = get_fields();
                     </div>
                 </div>
             </a>
-            <a href="/elonlar#form/" class="group rounded-lg">
+            <a href="/elonlar#form" class="group rounded-lg">
                 <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
                     <div class="">
-                        <h3 class="text-sm text-white font-semibold mb-5">Frontend dasturchisi-VueJS, Javascript</h3>
+                        <h3 class="text-sm text-white font-semibold mb-5"><?= $data['vakansiya']['card_4']['text']  ?></h3>
                         <hr class="w-full block bg-white border-none h-px mb-2.5">
                         <div class="flex gap-2 justify-between">
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                         <path d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z" fill="#1D1D1D" />
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">DUSHANBA-SHANBA</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_4']['days']  ?></span>
                             </div>
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -1888,7 +1848,7 @@ $data = get_fields();
                                             </g>
                                         </g>
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">10:00 - 18:00</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_4']['time']  ?></span>
                             </div>
 
 
@@ -1923,17 +1883,17 @@ $data = get_fields();
                     </div>
                 </div>
             </a>
-            <a href="/elonlar#form/" class="group rounded-lg">
+            <a href="/elonlar#form" class="group rounded-lg">
                 <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
                     <div class="">
-                        <h3 class="text-sm text-white font-semibold mb-5">Frontend dasturchisi-VueJS, Javascript</h3>
+                        <h3 class="text-sm text-white font-semibold mb-5"><?= $data['vakansiya']['card_5']['text']  ?></h3>
                         <hr class="w-full block bg-white border-none h-px mb-2.5">
                         <div class="flex gap-2 justify-between">
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                         <path d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z" fill="#1D1D1D" />
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">DUSHANBA-SHANBA</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_5']['days']  ?></span>
                             </div>
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -1943,7 +1903,7 @@ $data = get_fields();
                                             </g>
                                         </g>
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">10:00 - 18:00</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_5']['time']  ?></span>
                             </div>
 
 
@@ -1978,17 +1938,17 @@ $data = get_fields();
                     </div>
                 </div>
             </a>
-            <a href="/elonlar#form/" class="group rounded-lg">
+            <a href="/elonlar#form" class="group rounded-lg">
                 <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
                     <div class="">
-                        <h3 class="text-sm text-white font-semibold mb-5">Frontend dasturchisi-VueJS, Javascript</h3>
+                        <h3 class="text-sm text-white font-semibold mb-5"><?= $data['vakansiya']['card_6']['text']  ?></h3>
                         <hr class="w-full block bg-white border-none h-px mb-2.5">
                         <div class="flex gap-2 justify-between">
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                         <path d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z" fill="#1D1D1D" />
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">DUSHANBA-SHANBA</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_6']['days']  ?></span>
                             </div>
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -1998,7 +1958,7 @@ $data = get_fields();
                                             </g>
                                         </g>
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">10:00 - 18:00</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_6']['time']  ?></span>
                             </div>
 
 
@@ -2137,56 +2097,49 @@ $data = get_fields();
 <!-- IT sohasida xalqaro standartlarni qo'llab-quvvatlaymiz  -->
 <section class="bg-[#1D1D1D] pt-16 pb-24">
     <div class="max-w-[1322px] mx-auto px-5">
-        <h3 class="text-white text-4xl font-semibold mb-24 text-center">IT sohasida xalqaro standartlarni
-            qo'llab-quvvatlaymiz </h3>
+        <h3 class="text-white text-4xl font-semibold mb-24 text-center"><?= $data['it_sohasida_xalqaro']['main_title']  ?></h3>
         <div class="grid md:grid-cols-3 grid-cols-1 gap-5 list-disc">
             <div class="pt-[2px] px-10 pb-10 hover:bg-[#0086EE] group transition-all bg-[#252525] rounded-lg">
                 <div class="relative mb-4">
                     <hr class="absolute top-1/2 w-full h-px bg-white">
                     <img class="relative z-10 left-1/2 transition-all -translate-x-1/2 px-5 bg-[#252525] group-hover:bg-[#0086ee]" src="<?php echo get_template_directory_uri(); ?>/assets/img/ifQollabQovvotlash/img-1.png" alt="img">
                 </div>
-                <p class="text-white text-xl font-semibold leading-6 text-center">Bizning IT xizmatlarimiz foydalanish uchun
-                    oddiy va qulay</p>
+                <p class="text-white text-xl font-semibold leading-6 text-center"><?= $data['it_sohasida_xalqaro']['card_1']['text']  ?></p>
             </div>
             <div class="pt-[2px] px-10 pb-10 hover:bg-[#0086EE] group transition-all bg-[#252525] rounded-lg">
                 <div class="relative mb-4">
                     <hr class="absolute top-1/2 w-full h-px bg-white">
                     <img class="relative z-10 left-1/2 transition-all -translate-x-1/2 px-5 bg-[#252525] group-hover:bg-[#0086ee]" src="<?php echo get_template_directory_uri(); ?>/assets/img/ifQollabQovvotlash/img-2.png" alt="img">
                 </div>
-                <p class="text-white text-xl font-semibold leading-6 text-center">Bizning IT xizmatlarimiz foydalanish uchun
-                    oddiy va qulay</p>
+                <p class="text-white text-xl font-semibold leading-6 text-center"><?= $data['it_sohasida_xalqaro']['card_2']['text']  ?></p>
             </div>
             <div class="pt-[2px] px-10 pb-10 hover:bg-[#0086EE] group transition-all bg-[#252525] rounded-lg">
                 <div class="relative mb-4">
                     <hr class="absolute top-1/2 w-full h-px bg-white">
                     <img class="relative z-10 left-1/2 transition-all -translate-x-1/2 px-5 bg-[#252525] group-hover:bg-[#0086ee]" src="<?php echo get_template_directory_uri(); ?>/assets/img/ifQollabQovvotlash/img-3.png" alt="img">
                 </div>
-                <p class="text-white text-xl font-semibold leading-6 text-center">Bizning IT xizmatlarimiz foydalanish uchun
-                    oddiy va qulay</p>
+                <p class="text-white text-xl font-semibold leading-6 text-center"><?= $data['it_sohasida_xalqaro']['card_3']['text']  ?></p>
             </div>
             <div class="pt-[2px] px-10 pb-10 hover:bg-[#0086EE] group transition-all bg-[#252525] rounded-lg">
                 <div class="relative mb-4">
                     <hr class="absolute top-1/2 w-full h-px bg-white">
                     <img class="relative z-10 left-1/2 transition-all -translate-x-1/2 px-5 bg-[#252525] group-hover:bg-[#0086ee]" src="<?php echo get_template_directory_uri(); ?>/assets/img/ifQollabQovvotlash/img-4.png" alt="img">
                 </div>
-                <p class="text-white text-xl font-semibold leading-6 text-center">Bizning IT xizmatlarimiz foydalanish uchun
-                    oddiy va qulay</p>
+                <p class="text-white text-xl font-semibold leading-6 text-center"><?= $data['it_sohasida_xalqaro']['card_4']['text']  ?></p>
             </div>
             <div class="pt-[2px] px-10 pb-10 hover:bg-[#0086EE] group transition-all bg-[#252525] rounded-lg">
                 <div class="relative mb-4">
                     <hr class="absolute top-1/2 w-full h-px bg-white">
                     <img class="relative z-10 left-1/2 transition-all -translate-x-1/2 px-5 bg-[#252525] group-hover:bg-[#0086ee]" src="<?php echo get_template_directory_uri(); ?>/assets/img/ifQollabQovvotlash/img-5.png" alt="img">
                 </div>
-                <p class="text-white text-xl font-semibold leading-6 text-center">Bizning IT xizmatlarimiz foydalanish uchun
-                    oddiy va qulay</p>
+                <p class="text-white text-xl font-semibold leading-6 text-center"><?= $data['it_sohasida_xalqaro']['card_5']['text']  ?></p>
             </div>
             <div class="pt-[2px] px-10 pb-10 hover:bg-[#0086EE] group transition-all bg-[#252525] rounded-lg">
                 <div class="relative mb-4">
                     <hr class="absolute top-1/2 w-full h-px bg-white">
                     <img class="relative z-10 left-1/2 transition-all -translate-x-1/2 px-5 bg-[#252525] group-hover:bg-[#0086ee]" src="<?php echo get_template_directory_uri(); ?>/assets/img/ifQollabQovvotlash/img-6.png" alt="img">
                 </div>
-                <p class="text-white text-xl font-semibold leading-6 text-center">Bizning IT xizmatlarimiz foydalanish uchun
-                    oddiy va qulay</p>
+                <p class="text-white text-xl font-semibold leading-6 text-center"><?= $data['it_sohasida_xalqaro']['card_6']['text']  ?></p>
             </div>
         </div>
     </div>
