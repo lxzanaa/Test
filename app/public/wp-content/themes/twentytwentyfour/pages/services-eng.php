@@ -170,7 +170,7 @@ $data = get_fields();
         <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_1']['title']  ?></h3>
         <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_1']['text']  ?></p>
         <div class="flex gap-2 relative z-10 mt-auto">
-          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing</a>
           <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
         </div>
 
@@ -191,7 +191,7 @@ $data = get_fields();
         <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_2']['title']  ?></h3>
         <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_2']['text']  ?></p>
         <div class="flex gap-2 relative z-10 mt-auto">
-          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing</a>
           <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
         </div>
 
@@ -212,7 +212,7 @@ $data = get_fields();
         <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_3']['title']  ?></h3>
         <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_3']['text']  ?></p>
         <div class="flex gap-2 relative z-10 mt-auto">
-          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing</a>
           <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
         </div>
 
@@ -233,7 +233,7 @@ $data = get_fields();
         <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_4']['title']  ?></h3>
         <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_4']['text']  ?></p>
         <div class="flex gap-2 relative z-10 mt-auto">
-          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing</a>
           <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
         </div>
 
@@ -254,7 +254,7 @@ $data = get_fields();
         <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_5']['title']  ?></h3>
         <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_5']['text']  ?></p>
         <div class="flex gap-2 relative z-10 mt-auto">
-          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing</a>
           <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
         </div>
 
@@ -275,7 +275,7 @@ $data = get_fields();
         <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_6']['title']  ?></h3>
         <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_6']['text']  ?></p>
         <div class="flex gap-2 relative z-10 mt-auto">
-          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing</a>
           <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
         </div>
 
@@ -296,7 +296,7 @@ $data = get_fields();
         <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_7']['title']  ?></h3>
         <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_7']['text']  ?></p>
         <div class="flex gap-2 relative z-10 mt-auto">
-          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing</a>
           <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
         </div>
 
@@ -317,7 +317,7 @@ $data = get_fields();
         <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_8']['title']  ?></h3>
         <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_8']['text']  ?></p>
         <div class="flex gap-2 relative z-10 mt-auto">
-          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing</a>
           <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
         </div>
 
@@ -338,7 +338,7 @@ $data = get_fields();
         <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_9']['title']  ?></h3>
         <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_9']['text']  ?></p>
         <div class="flex gap-2 relative z-10 mt-auto">
-          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing</a>
           <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
         </div>
 
@@ -359,7 +359,7 @@ $data = get_fields();
         <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_10']['title']  ?></h3>
         <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_10']['text']  ?></p>
         <div class="flex gap-2 relative z-10 mt-auto">
-          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing</a>
           <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
         </div>
 
@@ -380,7 +380,7 @@ $data = get_fields();
         <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_11']['title']  ?></h3>
         <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_11']['text']  ?></p>
         <div class="flex gap-2 relative z-10 mt-auto">
-          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing</a>
           <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
         </div>
 
@@ -401,7 +401,7 @@ $data = get_fields();
         <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_12']['title']  ?></h3>
         <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_12']['text']  ?></p>
         <div class="flex gap-2 relative z-10 mt-auto">
-          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing</a>
           <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
         </div>
 

@@ -151,55 +151,43 @@ $data = get_fields();
                 text-shadow: 0 0 2px rgba(255, 255, 255, 0.25);
             }
         </style>
-        <h1 class="md:text-[64px] text-4xl font-semibold text-white  text-center mb-24 relative after:text-[#141415] after:content-['Новости'] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:block after:text-[58px] md:after:text-[128px] after:z-10 uppercase"><span class="relative z-30">Новости</span></h1>
+        <h1 class="md:text-[64px] text-4xl font-semibold text-white  text-center mb-24 relative after:text-[#141415] after:content-['<?= $data['news']['title']?>'] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:block after:text-[58px] md:after:text-[128px] after:z-10 uppercase"><span class="relative z-30"><?= $data['news']['title']?></span></h1>
         <div class="grid lg:grid-cols-2 gap-5 mb-5">
             <a href="/news-item/" style="background-image:  linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(2, 134, 239, 0.40) 341.42%) , url(<?php echo get_template_directory_uri(); ?>/assets/img/news/news-bg-card.png)" class="card-hover bg-cover flex flex-col items-center text-center pt-16 md:pb-[364px] pb-32">
                 <img class="mb-[105px]" src="<?php echo get_template_directory_uri(); ?>/assets/img/ipro-logo.svg" alt="logo">
 
-                <h3 class="text-white text-[40px] font-semibold"><span class="text-[32px] text-[#FFC700]">Ochilish </span>
-                    <span class="block">MAROSIMIGA</span>
-                    <span class="text-[32px] text-[#FFC700]">taklif qilamiz</span> !
+                <h3 class="text-white text-[40px] font-semibold"><span class="text-[32px] text-[#FFC700]"><?= $data['news']['elon']?></span>
+                    <span class="block"><?= $data['news']['elon_white']?></span>
+                    <span class="text-[32px] text-[#FFC700]"><?= $data['news']['elon_yellow']?></span> !
                 </h3>
             </a>
             <div class="grid md:grid-cols-2 gap-x-5 gap-y-[22px]">
                 <a href="/news-item/" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-1.jpg" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
-                        <time class="text-sm text-white font-bold mb-2">10.11.2023</time>
-                        <p class="text-white text-sm ">Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning
-                            ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID,
-                            DTM,
-                            ko‘plab</p>
+                        <time class="text-sm text-white font-bold mb-2"><?= $data['news']['card_1']['data']?></time>
+                        <p class="text-white text-sm "><?= $data['news']['card_2']['text']?></p>
                     </div>
                 </a>
                 <a href="/news-item/" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-2.jpg" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
-                        <time class="text-sm text-white font-bold mb-2">10.11.2023</time>
-                        <p class="text-white text-sm ">Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning
-                            ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID,
-                            DTM,
-                            ko‘plab</p>
+                        <time class="text-sm text-white font-bold mb-2"><?= $data['news']['card_2']['data']?></time>
+                        <p class="text-white text-sm "><?= $data['news']['card_2']['text']?></p>
                     </div>
                 </a>
                 <a href="/news-item/" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-3.jpg" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
-                        <time class="text-sm text-white font-bold mb-2">10.11.2023</time>
-                        <p class="text-white text-sm ">Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning
-                            ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID,
-                            DTM,
-                            ko‘plab</p>
+                        <time class="text-sm text-white font-bold mb-2"><?= $data['news']['card_3']['data']?></time>
+                        <p class="text-white text-sm "><?= $data['news']['card_2']['text']?></p>
                     </div>
                 </a>
                 <a href="/news-item/" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-4.png" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
-                        <time class="text-sm text-white font-bold mb-2">10.11.2023</time>
-                        <p class="text-white text-sm ">Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning
-                            ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID,
-                            DTM,
-                            ko‘plab</p>
+                        <time class="text-sm text-white font-bold mb-2"><?= $data['news']['card_4']['data']?></time>
+                        <p class="text-white text-sm "><?= $data['news']['card_2']['text']?></p>
                     </div>
                 </a>
             </div>
@@ -210,21 +198,15 @@ $data = get_fields();
                 <a href="/news-item/" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-5.jpg" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
-                        <time class="text-sm text-white font-bold mb-2">10.11.2023</time>
-                        <p class="text-white text-sm ">Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning
-                            ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID,
-                            DTM,
-                            ko‘plab</p>
+                        <time class="text-sm text-white font-bold mb-2"><?= $data['news_2']['card_1']['data']?></time>
+                        <p class="text-white text-sm "><?= $data['news_2']['card_2']['text']?></p>
                     </div>
                 </a>
                 <a href="/news-item/" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-6.jpg" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
-                        <time class="text-sm text-white font-bold mb-2">10.11.2023</time>
-                        <p class="text-white text-sm ">Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning
-                            ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID,
-                            DTM,
-                            ko‘plab</p>
+                        <time class="text-sm text-white font-bold mb-2"><?= $data['news_2']['card_1']['data']?></time>
+                        <p class="text-white text-sm "><?= $data['news_2']['card_2']['text']?></p>
                     </div>
                 </a>
             </div>
@@ -232,9 +214,9 @@ $data = get_fields();
                 <div class="flex justify-start pl-8 md:mb-[216px] mb-32 w-full">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ipro-logo.svg" alt="logo">
                 </div>
-                <h3 class="text-black text-[40px] font-semibold"><span class="text-[#FFC700] font-bold"> iPro group </span> dan
-                    <span class="block text-[#015E74] font-normal">chegirmani</span>
-                    <span class="uppercase font-bold">qo'lga kiriting!</span> !
+                <h3 class="text-black text-[40px] font-semibold"><span class="text-[#FFC700] font-bold"> <?= $data['news_2']['elon']?> </span> <br> <?= $data['news_2']['elon_black']?>
+                    <span class=" text-[#015E74] font-normal"> <?= $data['news_2']['elon_green']?></span><br>
+                    <span class="uppercase font-bold"> <?= $data['news_2']['elon_black_end']?></span>
                 </h3>
 
 
@@ -244,21 +226,15 @@ $data = get_fields();
                 <a href="/news-item/" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-7.png" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
-                        <time class="text-sm text-white font-bold mb-2">10.11.2023</time>
-                        <p class="text-white text-sm ">Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning
-                            ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID,
-                            DTM,
-                            ko‘plab</p>
+                        <time class="text-sm text-white font-bold mb-2"><?= $data['news_2']['card_1']['data']?></time>
+                        <p class="text-white text-sm "><?= $data['news_2']['card_2']['text']?></p>
                     </div>
                 </a>
                 <a href="/news-item/" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-8.png" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
-                        <time class="text-sm text-white font-bold mb-2">10.11.2023</time>
-                        <p class="text-white text-sm ">Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning
-                            ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID,
-                            DTM,
-                            ko‘plab</p>
+                        <time class="text-sm text-white font-bold mb-2"><?= $data['news_2']['card_1']['data']?></time>
+                        <p class="text-white text-sm "><?= $data['news_2']['card_2']['text']?></p>
                     </div>
                 </a>
             </div>
