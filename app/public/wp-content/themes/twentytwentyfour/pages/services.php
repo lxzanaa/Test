@@ -112,8 +112,8 @@ $data = get_fields();
         text-shadow: 0 0 2px rgba(255, 255, 255, 0.25);
       }
     </style>
-    <h1 class="md:text-[64px] text-4xl font-semibold text-white  text-center mb-24 relative after:text-[#141415] after:content-['Xizmatlar'] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:block after:text-[68px] md:after:text-[128px] after:z-10 uppercase">
-      <span class="relative z-30">Xizmatlar</span>
+    <h1 class="md:text-[64px] text-4xl font-semibold text-white  text-center mb-24 relative after:text-[#141415] after:content-['<?= $data['xizmatlarimiz']['main_title']?>'] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:block after:text-[68px] md:after:text-[128px] after:z-10 uppercase">
+      <span class="relative z-30"><?= $data['xizmatlarimiz']['main_title']?></span>
     </h1>
     <div class="grid lg:grid-cols-3 gap-5 md:grid-cols-2 grid-cols-1">
       <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-9 pb-5 relative overflow-hidden rounded-lg flex flex-col hover:shadow-[0 0 10px #0086EE4D]">
@@ -385,16 +385,6 @@ $data = get_fields();
 
   </div>
 </section>
-
-
-
-
-
-
-
-
-
-
 
 
 

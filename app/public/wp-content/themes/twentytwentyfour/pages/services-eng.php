@@ -142,277 +142,275 @@ $data = get_fields();
 
 <div class="pt-24"></div>
 
+
 <section class="bg-[#141415] pt-16 pb-16">
-    <div class="max-w-[1322px] mx-auto px-5">
-      <style>
-        h1::after {
-          text-shadow: 0 0 2px rgba(255, 255, 255, 0.25);
-        }
-      </style>
-      <h1
-        class="md:text-[64px] text-4xl font-semibold text-white  text-center mb-24 relative after:text-[#141415] after:content-['SERVICES'] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:block after:text-[68px] md:after:text-[128px] after:z-10 uppercase">
-        <span class="relative z-30">SERVICES</span>
-      </h1>
-      <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
-          <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-14 pb-5 relative overflow-hidden rounded-lg flex flex-col">
-            <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
-              <g filter="url(#filter0_f_653_1971)">
-                <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3"/>
-              </g>
-              <defs>
-                <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                  <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971"/>
-                </filter>
-              </defs>
-            </svg>
-            <h3 class="text-xl text-white font-bold mb-5 capitalize">Ux&UI dizayn</h3>
-            <p class="text-sm text-white leading-snug mb-[74px]">Loyiha Mindmapini ishlab chiqish va ushbu arxetektura asosida optimal yechimga ega dizaynlarni chizish </p>
-              <div class="flex gap-2 relative z-10 mt-auto">
-              <a href="./index.html#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma berish</a>
-              <a href="./about.html" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">Batafsil</a>
-            </div>
+  <div class="max-w-[1322px] mx-auto px-5">
+    <style>
+      h1::after {
+        text-shadow: 0 0 2px rgba(255, 255, 255, 0.25);
+      }
+    </style>
+    <h1 class="md:text-[64px] text-4xl font-semibold text-white  text-center mb-24 relative after:text-[#141415] after:content-['<?= $data['xizmatlarimiz']['main_title']?>'] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:block after:text-[68px] md:after:text-[128px] after:z-10 uppercase">
+      <span class="relative z-30"><?= $data['xizmatlarimiz']['main_title']?></span>
+    </h1>
+    <div class="grid lg:grid-cols-3 gap-5 md:grid-cols-2 grid-cols-1">
+      <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-9 pb-5 relative overflow-hidden rounded-lg flex flex-col hover:shadow-[0 0 10px #0086EE4D]">
+        <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
+          <g filter="url(#filter0_f_653_1971)">
+            <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3" />
+          </g>
+          <defs>
+            <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971" />
+            </filter>
+          </defs>
+        </svg>
+        <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_1']['title']  ?></h3>
+        <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_1']['text']  ?></p>
+        <div class="flex gap-2 relative z-10 mt-auto">
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
+        </div>
 
-          </div>
-          <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-14 pb-5 relative overflow-hidden rounded-lg flex flex-col">
-            <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
-              <g filter="url(#filter0_f_653_1971)">
-                <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3"/>
-              </g>
-              <defs>
-                <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                  <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971"/>
-                </filter>
-              </defs>
-            </svg>
-            <h3 class="text-xl text-white font-bold mb-5 capitalize">Grafik dizayn</h3>
-            <p class="text-sm text-white leading-snug mb-[74px]">Tasvirlar, grafikalar, va matnlar orqali axborotni yaratishda va o'zlashtirishda ishlatiluvchi san'at va texnologiyalarni jamlagan jarayon</p>
-              <div class="flex gap-2 relative z-10 mt-auto">
-              <a href="./index.html#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma berish</a>
-              <a href="./about.html" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">Batafsil</a>
-            </div>
-
-          </div>
-          <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-14 pb-5 relative overflow-hidden rounded-lg flex flex-col">
-            <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
-              <g filter="url(#filter0_f_653_1971)">
-                <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3"/>
-              </g>
-              <defs>
-                <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                  <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971"/>
-                </filter>
-              </defs>
-            </svg>
-            <h3 class="text-xl text-white font-bold mb-5 capitalize">SMM</h3>
-            <p class="text-sm text-white leading-snug mb-[74px]">Ijtimoiy media boshqaruv usullari orqali internet platformalarida reklama qilish</p>
-              <div class="flex gap-2 relative z-10 mt-auto">
-              <a href="./index.html#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma berish</a>
-              <a href="./about.html" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">Batafsil</a>
-            </div>
-
-          </div>
-          <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-14 pb-5 relative overflow-hidden rounded-lg flex flex-col">
-            <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
-              <g filter="url(#filter0_f_653_1971)">
-                <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3"/>
-              </g>
-              <defs>
-                <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                  <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971"/>
-                </filter>
-              </defs>
-            </svg>
-            <h3 class="text-xl text-white font-bold mb-5 capitalize">Promo Videolar</h3>
-            <p class="text-sm text-white leading-snug mb-[74px]">Bu videolar, ko'rsatilayotgan ma'lumotlarni, xizmat yoki mahsulotning afzalliklarini o'z ichiga oladi va uni muvaffaqiyatli ravishda turli ko'ruvchilarga taqdim etish uchun yaratiladi</p>
-              <div class="flex gap-2 relative z-10 mt-auto">
-              <a href="./index.html#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma berish</a>
-              <a href="./about.html" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">Batafsil</a>
-            </div>
-
-          </div>
-          <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-14 pb-5 relative overflow-hidden rounded-lg flex flex-col">
-            <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
-              <g filter="url(#filter0_f_653_1971)">
-                <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3"/>
-              </g>
-              <defs>
-                <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                  <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971"/>
-                </filter>
-              </defs>
-            </svg>
-            <h3 class="text-xl text-white font-bold mb-5 capitalize">MOUSHEN Dizayn</h3>
-            <p class="text-sm text-white leading-snug mb-[74px]">Muhiti va innovatsiyani grafik dizaynda jamlab beruvchi yaratuvchi dasturlash va dizayn kompaniyasi</p>
-              <div class="flex gap-2 relative z-10 mt-auto">
-              <a href="./index.html#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma berish</a>
-              <a href="./about.html" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">Batafsil</a>
-            </div>
-
-          </div>
-          <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-14 pb-5 relative overflow-hidden rounded-lg flex flex-col">
-            <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
-              <g filter="url(#filter0_f_653_1971)">
-                <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3"/>
-              </g>
-              <defs>
-                <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                  <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971"/>
-                </filter>
-              </defs>
-            </svg>
-            <h3 class="text-xl text-white font-bold mb-5 capitalize">Videomontaj</h3>
-            <p class="text-sm text-white leading-snug mb-[74px]">Videolarni tahrirlash, qo'llab-quvvatlash, va birlashtirishda ishlatiladigan texnika</p>
-              <div class="flex gap-2 relative z-10 mt-auto">
-              <a href="./index.html#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma berish</a>
-              <a href="./about.html" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">Batafsil</a>
-            </div>
-
-          </div>
-          <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-14 pb-5 relative overflow-hidden rounded-lg flex flex-col">
-            <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
-              <g filter="url(#filter0_f_653_1971)">
-                <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3"/>
-              </g>
-              <defs>
-                <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                  <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971"/>
-                </filter>
-              </defs>
-            </svg>
-            <h3 class="text-xl text-white font-bold mb-5 capitalize">Telegram bot</h3>
-            <p class="text-sm text-white leading-snug mb-[74px]">Telegram messenjerida ishlaydigan avtomatlashtirilgan dasturlar, ularga habarlar, ma'lumotlar, va boshqa tadbirlar orqali javob berishlari uchun sozlanganlar</p>
-              <div class="flex gap-2 relative z-10 mt-auto">
-              <a href="./index.html#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma berish</a>
-              <a href="./about.html" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">Batafsil</a>
-            </div>
-
-          </div>
-          <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-14 pb-5 relative overflow-hidden rounded-lg flex flex-col">
-            <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
-              <g filter="url(#filter0_f_653_1971)">
-                <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3"/>
-              </g>
-              <defs>
-                <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                  <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971"/>
-                </filter>
-              </defs>
-            </svg>
-            <h3 class="text-xl text-white font-bold mb-5 capitalize">Dasturlash</h3>
-            <p class="text-sm text-white leading-snug mb-[74px]">Kompyuterlar yoki mobil qurilmalar uchun dasturlar yaratish va ulardan foydalanish texnikasi</p>
-              <div class="flex gap-2 relative z-10 mt-auto">
-              <a href="./index.html#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma berish</a>
-              <a href="./about.html" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">Batafsil</a>
-            </div>
-
-          </div>
-          <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-14 pb-5 relative overflow-hidden rounded-lg flex flex-col">
-            <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
-              <g filter="url(#filter0_f_653_1971)">
-                <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3"/>
-              </g>
-              <defs>
-                <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                  <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971"/>
-                </filter>
-              </defs>
-            </svg>
-            <h3 class="text-xl text-white font-bold mb-5 capitalize">Mobil ilovalar</h3>
-            <p class="text-sm text-white leading-snug mb-[74px]">Istalgan qiyinchilikdagi mobil ilovalarni ishlab chiqish va ularni texnik qo’llab quvvatlash</p>
-              <div class="flex gap-2 relative z-10 mt-auto">
-              <a href="./index.html#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma berish</a>
-              <a href="./about.html" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">Batafsil</a>
-            </div>
-
-          </div>
-          <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-14 pb-5 relative overflow-hidden rounded-lg flex flex-col">
-            <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
-              <g filter="url(#filter0_f_653_1971)">
-                <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3"/>
-              </g>
-              <defs>
-                <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                  <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971"/>
-                </filter>
-              </defs>
-            </svg>
-            <h3 class="text-xl text-white font-bold mb-5 capitalize">SEO</h3>
-            <p class="text-sm text-white leading-snug mb-[74px]">Telegram messenjerida ishlaydigan avtomatlashtirilgan dasturlar, ularga habarlar, ma'lumotlar, va boshqa tadbirlar orqali javob berishlari uchun sozlanganlar</p>
-              <div class="flex gap-2 relative z-10 mt-auto">
-              <a href="./index.html#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma berish</a>
-              <a href="./about.html" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">Batafsil</a>
-            </div>
-
-          </div>
-          <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-14 pb-5 relative overflow-hidden rounded-lg flex flex-col">
-            <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
-              <g filter="url(#filter0_f_653_1971)">
-                <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3"/>
-              </g>
-              <defs>
-                <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                  <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971"/>
-                </filter>
-              </defs>
-            </svg>
-            <h3 class="text-xl text-white font-bold mb-5 capitalize">Targeting</h3>
-            <p class="text-sm text-white leading-snug mb-[74px]">Kompyuterlar yoki mobil qurilmalar uchun dasturlar yaratish va ulardan foydalanish texnikasi</p>
-              <div class="flex gap-2 relative z-10 mt-auto">
-              <a href="./index.html#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma berish</a>
-              <a href="./about.html" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">Batafsil</a>
-            </div>
-
-          </div>
-          <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-14 pb-5 relative overflow-hidden rounded-lg flex flex-col">
-            <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
-              <g filter="url(#filter0_f_653_1971)">
-                <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3"/>
-              </g>
-              <defs>
-                <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                  <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971"/>
-                </filter>
-              </defs>
-            </svg>
-            <h3 class="text-xl text-white font-bold mb-5 capitalize">Marketing</h3>
-            <p class="text-sm text-white leading-snug mb-[74px]">Istalgan qiyinchilikdagi mobil ilovalarni ishlab chiqish va ularni texnik qo’llab quvvatlash</p>
-            <div class="flex gap-2 relative z-10 mt-auto">
-              <a href="./index.html#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Buyurtma berish</a>
-              <a href="./about.html" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">Batafsil</a>
-            </div>
-
-          </div>
-          
-         
       </div>
+      <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-9 pb-5 relative overflow-hidden rounded-lg flex flex-col">
+        <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
+          <g filter="url(#filter0_f_653_1971)">
+            <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3" />
+          </g>
+          <defs>
+            <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971" />
+            </filter>
+          </defs>
+        </svg>
+        <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_2']['title']  ?></h3>
+        <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_2']['text']  ?></p>
+        <div class="flex gap-2 relative z-10 mt-auto">
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
+        </div>
 
+      </div>
+      <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-9 pb-5 relative overflow-hidden rounded-lg flex flex-col">
+        <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
+          <g filter="url(#filter0_f_653_1971)">
+            <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3" />
+          </g>
+          <defs>
+            <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971" />
+            </filter>
+          </defs>
+        </svg>
+        <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_3']['title']  ?></h3>
+        <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_3']['text']  ?></p>
+        <div class="flex gap-2 relative z-10 mt-auto">
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
+        </div>
+
+      </div>
+      <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-9 pb-5 relative overflow-hidden rounded-lg flex flex-col">
+        <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
+          <g filter="url(#filter0_f_653_1971)">
+            <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3" />
+          </g>
+          <defs>
+            <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971" />
+            </filter>
+          </defs>
+        </svg>
+        <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_4']['title']  ?></h3>
+        <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_4']['text']  ?></p>
+        <div class="flex gap-2 relative z-10 mt-auto">
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
+        </div>
+
+      </div>
+      <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-9 pb-5 relative overflow-hidden rounded-lg flex flex-col">
+        <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
+          <g filter="url(#filter0_f_653_1971)">
+            <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3" />
+          </g>
+          <defs>
+            <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971" />
+            </filter>
+          </defs>
+        </svg>
+        <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_5']['title']  ?></h3>
+        <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_5']['text']  ?></p>
+        <div class="flex gap-2 relative z-10 mt-auto">
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
+        </div>
+
+      </div>
+      <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-9 pb-5 relative overflow-hidden rounded-lg flex flex-col">
+        <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
+          <g filter="url(#filter0_f_653_1971)">
+            <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3" />
+          </g>
+          <defs>
+            <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971" />
+            </filter>
+          </defs>
+        </svg>
+        <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_6']['title']  ?></h3>
+        <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_6']['text']  ?></p>
+        <div class="flex gap-2 relative z-10 mt-auto">
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
+        </div>
+
+      </div>
+      <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-9 pb-5 relative overflow-hidden rounded-lg flex flex-col">
+        <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
+          <g filter="url(#filter0_f_653_1971)">
+            <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3" />
+          </g>
+          <defs>
+            <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971" />
+            </filter>
+          </defs>
+        </svg>
+        <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_7']['title']  ?></h3>
+        <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_7']['text']  ?></p>
+        <div class="flex gap-2 relative z-10 mt-auto">
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
+        </div>
+
+      </div>
+      <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-9 pb-5 relative overflow-hidden rounded-lg flex flex-col">
+        <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
+          <g filter="url(#filter0_f_653_1971)">
+            <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3" />
+          </g>
+          <defs>
+            <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971" />
+            </filter>
+          </defs>
+        </svg>
+        <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_8']['title']  ?></h3>
+        <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_8']['text']  ?></p>
+        <div class="flex gap-2 relative z-10 mt-auto">
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
+        </div>
+
+      </div>
+      <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-9 pb-5 relative overflow-hidden rounded-lg flex flex-col">
+        <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
+          <g filter="url(#filter0_f_653_1971)">
+            <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3" />
+          </g>
+          <defs>
+            <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971" />
+            </filter>
+          </defs>
+        </svg>
+        <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_9']['title']  ?></h3>
+        <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_9']['text']  ?></p>
+        <div class="flex gap-2 relative z-10 mt-auto">
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
+        </div>
+
+      </div>
+      <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-9 pb-5 relative overflow-hidden rounded-lg flex flex-col">
+        <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
+          <g filter="url(#filter0_f_653_1971)">
+            <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3" />
+          </g>
+          <defs>
+            <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971" />
+            </filter>
+          </defs>
+        </svg>
+        <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_10']['title']  ?></h3>
+        <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_10']['text']  ?></p>
+        <div class="flex gap-2 relative z-10 mt-auto">
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
+        </div>
+
+      </div>
+      <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-9 pb-5 relative overflow-hidden rounded-lg flex flex-col">
+        <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
+          <g filter="url(#filter0_f_653_1971)">
+            <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3" />
+          </g>
+          <defs>
+            <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971" />
+            </filter>
+          </defs>
+        </svg>
+        <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_11']['title']  ?></h3>
+        <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_11']['text']  ?></p>
+        <div class="flex gap-2 relative z-10 mt-auto">
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
+        </div>
+
+      </div>
+      <div style="background-image: linear-gradient(180deg, #252527 30.75%, rgba(1, 134, 239, 0.00) 615.25%);" class="p-8 pr-9 pb-5 relative overflow-hidden rounded-lg flex flex-col">
+        <svg class="absolute bottom-3 right-0 inline-block" xmlns="http://www.w3.org/2000/svg" width="202" height="179" viewBox="0 0 202 179" fill="none">
+          <g filter="url(#filter0_f_653_1971)">
+            <circle cx="110" cy="110" r="55" fill="#0086EE" fill-opacity="0.3" />
+          </g>
+          <defs>
+            <filter id="filter0_f_653_1971" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="27.5" result="effect1_foregroundBlur_653_1971" />
+            </filter>
+          </defs>
+        </svg>
+        <h3 class="text-xl text-white font-bold mb-5 capitalize"><?= $data['xizmatlarimiz']['card_12']['title']  ?></h3>
+        <p class="text-sm text-white leading-snug mb-[56px]"><?= $data['xizmatlarimiz']['card_12']['text']  ?></p>
+        <div class="flex gap-2 relative z-10 mt-auto">
+          <a href="#contact" class="px-[14px] py-3 bg-[#0086EE] rounded-lg font-bold text-sm  text-white border border-transparent hover:border-[#0086EE] hover:bg-transparent transition-all">Placing an order</a>
+          <a href="#contact" class="px-[14px] py-3 border border-[#0086EE] rounded-lg font-bold text-sm  text-[#0086EE] hover:bg-white transition-all">More</a>
+        </div>
+
+      </div>
     </div>
-  </section>
 
+
+  </div>
+</section>
 
 
   
