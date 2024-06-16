@@ -117,23 +117,22 @@ $data = get_fields();
         }
       </style>
       <h1
-        class="md:text-[64px] text-4xl font-semibold text-white text-center mb-24 relative after:text-[#141415] after:content-['hodimlar'] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:block after:text-[68px] md:after:text-[128px] after:z-10 uppercase">
-        <span class="relative z-30">hodimlar</span>
+        class="md:text-[64px] text-4xl font-semibold text-white text-center mb-24 relative after:text-[#141415] after:content-['<?= $data['main_title'] ?>'] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:block after:text-[68px] md:after:text-[128px] after:z-10 uppercase">
+        <span class="relative z-30"><?= $data['main_title'] ?></span>
       </h1>
       <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-5 mb-5">
         <div
           class="h-96 w-full bg-cover py-6 px-3 flex gap-5 bg-center justify-between  items-end relative group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')]">
-          <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span
-              class="block">Abdurauf</span></h3>
-          <p class="font-semibold text-white">Web dasturchi</p>
+          <h3 class="text-xl font-semibold text-white"><?= $data['card_1']['name'] ?></h3>
+          <p class="font-semibold text-white"><?= $data['card_1']['position'] ?></p>
           <div
             class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-4 px-5 group-hover:translate-y-0 translate-y-full transition-all"
             style="backdrop-filter: blur(4.5px);">
             <div class="flex justify-between items-center mb-2">
-              <h4 class="text-base font-semibold"><span>Azimov </span><span class="font-normal">Yunus</span></h4>
-              <p class="text-xs text-[#141619]">Grafik dizayner</p>
+              <h4 class="text-base font-semibold"><span><?= $data['card_1']['surname'] ?> </span><br><span class="font-normal"><?= $data['card_1']['name_light'] ?></span></h4>
+              <p class="text-xs text-[#141619]"><?= $data['card_1']['position'] ?></p>
             </div>
-            <p class="text-xs mb-2">Figma yonalishida 1 yillik tajribaga ega stajer (junior)
+            <p class="text-xs mb-2"><?= $data['card_1']['text'] ?>
             </p>
             <div class="flex gap-4 items-center">
               <a href="tel:+998905463326" class="text-lg "><i class="fa-solid fa-phone"></i></i></a>
@@ -144,88 +143,19 @@ $data = get_fields();
             </div>
           </div>
         </div>
-        <div
-          class="h-96 w-full bg-cover bg-center py-6 px-3 flex gap-5 justify-between items-end relative group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')]">
-          <h3 class="text-xl font-semibold text-white"><span class="block">Alimov</span> <span class="block">Obid</span>
-          </h3>
-          <p class="font-semibold text-white">Telegram bot</p>
-          <div
-            class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-4 px-5 group-hover:translate-y-0 translate-y-full transition-all"
-            style="backdrop-filter: blur(4.5px);">
-            <div class="flex justify-between items-center mb-2">
-              <h4 class="text-base font-semibold"><span>Alimov </span><span class="font-normal">Obid</span></h4>
-              <p class="text-xs text-[#141619]">Telegram bot</p>
-            </div>
-            <p class="text-xs mb-2">Telegram bot yonalishida 6yillik tajribaga ega (middle) mutaxasis
-            </p>
-            <div class="flex gap-4 items-center">
-              <a href="tel:+998905463326" class="text-lg "><i class="fa-solid fa-phone"></i></i></a>
-              <a target="_blank" href="#" class="text-lg "><i class="fa-brands fa-facebook"></i></i></a>
-              <a target="_blank" href="#" class="text-lg "><i class="fa-brands fa-instagram"></i></i></a>
-              <a target="_blank" href="https://t.me/Never_g1veUp" class="text-lg "><i
-                  class="fa-brands fa-telegram"></i></a>
-            </div>
-          </div>
-        </div>
-        <div
-          class="h-96 w-full bg-cover py-6 px-3 flex gap-5 flex justify-between items-end relative  group bg-center overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/gril-3.webp')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/gril-3.webp')]">
-          <h3 class="text-xl font-semibold text-white"><span class="block">Matmusayeva</span> <span
-              class="block">Zarina</span></h3>
-          <p class="font-semibold text-white text-right">Grafik dizayner</p>
-          <div
-            class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-4 px-5 group-hover:translate-y-0 translate-y-full transition-all"
-            style="backdrop-filter: blur(4.5px);">
-            <div class="flex justify-between items-center mb-2">
-              <h4 class="text-base font-semibold"><span>Matmusayeva </span><span class="font-normal">Zarina</span></h4>
-              <p class="text-xs text-[#141619]">Grafik dizayner</p>
-            </div>
-            <p class="text-xs mb-2">Grafik dizayner yonalishida 5 yillik tajribaga ega (middle dizayner) mutaxasis
-            </p>
-            <div class="flex gap-4 items-center">
-              <a href="tel:+998905463326" class="text-lg "><i class="fa-solid fa-phone"></i></i></a>
-              <a target="_blank" href="#" class="text-lg "><i class="fa-brands fa-facebook"></i></i></a>
-              <a target="_blank" href="#" class="text-lg "><i class="fa-brands fa-instagram"></i></i></a>
-              <a target="_blank" href="https://t.me/Never_g1veUp" class="text-lg "><i
-                  class="fa-brands fa-telegram"></i></a>
-            </div>
-          </div>
-        </div>
-        <div
-          class="h-96 w-full bg-cover py-6 px-3 flex gap-5 justify-between items-end relative cursor-pointer group bg-center overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')]">
-          <h3 class="text-xl font-semibold text-white"><span class="block">Asadov</span> <span
-              class="block">Abdurauf</span></h3>
-          <p class="font-semibold text-white">Web dasturchi</p>
-          <div
-            class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-4 px-5 group-hover:translate-y-0 translate-y-full transition-all"
-            style="backdrop-filter: blur(4.5px);">
-            <div class="flex justify-between items-center mb-2">
-              <h4 class="text-base font-semibold"><span>Abdullayev </span><span class="font-normal">Javoxir</span></h4>
-              <p class="text-xs text-[#141619]">Grafik dizayner</p>
-            </div>
-            <p class="text-xs mb-2">Figma yonalishida 6,5 yillik tajribaga ega (strong middle dizayner) mutaxasis
-            </p>
-            <div class="flex gap-4 items-center">
-              <a href="tel:+998905463326" class="text-lg "><i class="fa-solid fa-phone"></i></i></a>
-              <a target="_blank" href="#" class="text-lg "><i class="fa-brands fa-facebook"></i></i></a>
-              <a target="_blank" href="#" class="text-lg "><i class="fa-brands fa-instagram"></i></i></a>
-              <a target="_blank" href="https://t.me/Never_g1veUp" class="text-lg "><i
-                  class="fa-brands fa-telegram"></i></a>
-            </div>
-          </div>
-        </div>
+
         <div
           class="h-96 w-full bg-cover py-6 px-3 flex gap-5 bg-center justify-between  items-end relative group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')]">
-          <h3 class="text-xl font-semibold text-white"><span class="block">Ubaydullayev</span> <span
-              class="block">Sardor</span></h3>
-          <p class="font-semibold text-white">CEO</p>
+          <h3 class="text-xl font-semibold text-white"><?= $data['card_2']['name'] ?></h3>
+          <p class="font-semibold text-white"><?= $data['card_2']['position'] ?></p>
           <div
             class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-4 px-5 group-hover:translate-y-0 translate-y-full transition-all"
             style="backdrop-filter: blur(4.5px);">
             <div class="flex justify-between items-center mb-2">
-              <h4 class="text-base font-semibold"><span>Ubaydullayev </span><span class="font-normal">Sardor</span></h4>
-              <p class="text-xs text-[#141619]">CEO</p>
+              <h4 class="text-base font-semibold"><span><?= $data['card_2']['surname'] ?> </span><br><span class="font-normal"><?= $data['card_2']['name_light'] ?></span></h4>
+              <p class="text-xs text-[#141619]"><?= $data['card_2']['position'] ?></p>
             </div>
-            <p class="text-xs mb-2">CEO yonalishida 3 yillik tajribaga ega mutaxasis
+            <p class="text-xs mb-2"><?= $data['card_2']['text'] ?>
             </p>
             <div class="flex gap-4 items-center">
               <a href="tel:+998905463326" class="text-lg "><i class="fa-solid fa-phone"></i></i></a>
@@ -236,19 +166,19 @@ $data = get_fields();
             </div>
           </div>
         </div>
+
         <div
-          class="h-96 w-full bg-cover bg-center py-6 px-3 flex gap-5 justify-between items-end relative group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')]">
-          <h3 class="text-xl font-semibold text-white"><span class="block">Alimov</span> <span class="block">Obid</span>
-          </h3>
-          <p class="font-semibold text-white">Telegram bot</p>
+          class="h-96 w-full bg-cover py-6 px-3 flex gap-5 bg-center justify-between  items-end relative group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/gril-3.webp')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/gril-3.webp')]">
+          <h3 class="text-xl font-semibold text-white"><?= $data['card_3']['name'] ?></h3>
+          <p class="font-semibold text-white"><?= $data['card_3']['position'] ?></p>
           <div
             class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-4 px-5 group-hover:translate-y-0 translate-y-full transition-all"
             style="backdrop-filter: blur(4.5px);">
             <div class="flex justify-between items-center mb-2">
-              <h4 class="text-base font-semibold"><span>Jamshidov </span><span class="font-normal">Jamol</span></h4>
-              <p class="text-xs text-[#141619]">Android</p>
+              <h4 class="text-base font-semibold"><span><?= $data['card_3']['surname'] ?> </span><br><span class="font-normal"><?= $data['card_3']['name_light'] ?></span></h4>
+              <p class="text-xs text-[#141619]"><?= $data['card_3']['position'] ?></p>
             </div>
-            <p class="text-xs mb-2">Java (android) yonalishida 7 yillik tajribaga ega (senior) mutaxasis
+            <p class="text-xs mb-2"><?= $data['card_3']['text'] ?>
             </p>
             <div class="flex gap-4 items-center">
               <a href="tel:+998905463326" class="text-lg "><i class="fa-solid fa-phone"></i></i></a>
@@ -259,20 +189,19 @@ $data = get_fields();
             </div>
           </div>
         </div>
+
         <div
-          class="h-96 w-full bg-cover py-6 px-3 flex gap-5 flex justify-between items-end relative  group bg-center overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')]">
-          <h3 class="text-xl font-semibold text-white"><span class="block">Abdullayev</span> <span
-              class="block">Javoxir</span></h3>
-          <p class="font-semibold text-white text-right">Grafik dizayner</p>
+          class="h-96 w-full bg-cover py-6 px-3 flex gap-5 bg-center justify-between  items-end relative group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')]">
+          <h3 class="text-xl font-semibold text-white"><?= $data['card_4']['name'] ?></h3>
+          <p class="font-semibold text-white"><?= $data['card_4']['position'] ?></p>
           <div
             class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-4 px-5 group-hover:translate-y-0 translate-y-full transition-all"
             style="backdrop-filter: blur(4.5px);">
             <div class="flex justify-between items-center mb-2">
-              <h4 class="text-base font-semibold"><span>Abdullayev </span><span class="font-normal">Javoxir</span></h4>
-              <p class="text-xs text-[#141619]">Grafik dizayner</p>
+              <h4 class="text-base font-semibold"><span><?= $data['card_4']['surname'] ?> </span><br><span class="font-normal"><?= $data['card_4']['name_light'] ?></span></h4>
+              <p class="text-xs text-[#141619]"><?= $data['card_4']['position'] ?></p>
             </div>
-            <p class="text-xs mb-2">Figma yonalishida 6,5 yillik tajribaga ega (strong middle dizayner) mutaxasis
-              mutaxasis
+            <p class="text-xs mb-2"><?= $data['card_4']['text'] ?>
             </p>
             <div class="flex gap-4 items-center">
               <a href="tel:+998905463326" class="text-lg "><i class="fa-solid fa-phone"></i></i></a>
@@ -283,19 +212,19 @@ $data = get_fields();
             </div>
           </div>
         </div>
+
         <div
-          class="h-96 w-full bg-cover py-6 px-3 flex gap-5 justify-between items-end relative cursor-pointer group bg-center overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/gril-3.webp')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/gril-3.webp')]">
-          <h3 class="text-xl font-semibold text-white"><span class="block">Asadova</span> <span
-              class="block">Malika</span></h3>
-          <p class="font-semibold text-white">Targeting</p>
+          class="h-96 w-full bg-cover py-6 px-3 flex gap-5 bg-center justify-between  items-end relative group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')]">
+          <h3 class="text-xl font-semibold text-white"><?= $data['card_5']['name'] ?></h3>
+          <p class="font-semibold text-white"><?= $data['card_5']['position'] ?></p>
           <div
             class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-4 px-5 group-hover:translate-y-0 translate-y-full transition-all"
             style="backdrop-filter: blur(4.5px);">
             <div class="flex justify-between items-center mb-2">
-              <h4 class="text-base font-semibold"><span>Asadova </span><span class="font-normal">Malika</span></h4>
-              <p class="text-xs text-[#141619]">Targeting</p>
+              <h4 class="text-base font-semibold"><span><?= $data['card_5']['surname'] ?> </span><br><span class="font-normal"><?= $data['card_5']['name_light'] ?></span></h4>
+              <p class="text-xs text-[#141619]"><?= $data['card_5']['position'] ?></p>
             </div>
-            <p class="text-xs mb-2">Targeting yonalishida 4 yillik tajribaga ega (middle) mutaxasis
+            <p class="text-xs mb-2"><?= $data['card_5']['text'] ?>
             </p>
             <div class="flex gap-4 items-center">
               <a href="tel:+998905463326" class="text-lg "><i class="fa-solid fa-phone"></i></i></a>
@@ -306,6 +235,76 @@ $data = get_fields();
             </div>
           </div>
         </div>
+
+        <div
+          class="h-96 w-full bg-cover py-6 px-3 flex gap-5 bg-center justify-between  items-end relative group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')]">
+          <h3 class="text-xl font-semibold text-white"><?= $data['card_6']['name'] ?></h3>
+          <p class="font-semibold text-white"><?= $data['card_6']['position'] ?></p>
+          <div
+            class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-4 px-5 group-hover:translate-y-0 translate-y-full transition-all"
+            style="backdrop-filter: blur(4.5px);">
+            <div class="flex justify-between items-center mb-2">
+              <h4 class="text-base font-semibold"><span><?= $data['card_6']['surname'] ?> </span><br><span class="font-normal"><?= $data['card_6']['name_light'] ?></span></h4>
+              <p class="text-xs text-[#141619]"><?= $data['card_6']['position'] ?></p>
+            </div>
+            <p class="text-xs mb-2"><?= $data['card_6']['text'] ?>
+            </p>
+            <div class="flex gap-4 items-center">
+              <a href="tel:+998905463326" class="text-lg "><i class="fa-solid fa-phone"></i></i></a>
+              <a target="_blank" href="#" class="text-lg "><i class="fa-brands fa-facebook"></i></i></a>
+              <a target="_blank" href="#" class="text-lg "><i class="fa-brands fa-instagram"></i></i></a>
+              <a target="_blank" href="https://t.me/Never_g1veUp" class="text-lg "><i
+                  class="fa-brands fa-telegram"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="h-96 w-full bg-cover py-6 px-3 flex gap-5 bg-center justify-between  items-end relative group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/man.png')]">
+          <h3 class="text-xl font-semibold text-white"><?= $data['card_7']['name'] ?></h3>
+          <p class="font-semibold text-white"><?= $data['card_7']['position'] ?></p>
+          <div
+            class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-4 px-5 group-hover:translate-y-0 translate-y-full transition-all"
+            style="backdrop-filter: blur(4.5px);">
+            <div class="flex justify-between items-center mb-2">
+              <h4 class="text-base font-semibold"><span><?= $data['card_7']['surname'] ?> </span><br><span class="font-normal"><?= $data['card_7']['name_light'] ?></span></h4>
+              <p class="text-xs text-[#141619]"><?= $data['card_7']['position'] ?></p>
+            </div>
+            <p class="text-xs mb-2"><?= $data['card_7']['text'] ?>
+            </p>
+            <div class="flex gap-4 items-center">
+              <a href="tel:+998905463326" class="text-lg "><i class="fa-solid fa-phone"></i></i></a>
+              <a target="_blank" href="#" class="text-lg "><i class="fa-brands fa-facebook"></i></i></a>
+              <a target="_blank" href="#" class="text-lg "><i class="fa-brands fa-instagram"></i></i></a>
+              <a target="_blank" href="https://t.me/Never_g1veUp" class="text-lg "><i
+                  class="fa-brands fa-telegram"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="h-96 w-full bg-cover py-6 px-3 flex gap-5 bg-center justify-between  items-end relative group overflow-hidden bg-[linear-gradient(147deg,rgba(37,37,39,0.00)0%,rgba(2,134,239,0.20)98.75%),url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/gril-3.webp')] hover:!bg-[url('<?php echo get_template_directory_uri(); ?>/assets/img/hodim/gril-3.webp')]">
+          <h3 class="text-xl font-semibold text-white"><?= $data['card_8']['name'] ?></h3>
+          <p class="font-semibold text-white"><?= $data['card_8']['position'] ?></p>
+          <div
+            class="bg-[rgba(255,255,255,0.75)] absolute bottom-0 left-0 pt-5 pb-4 px-5 group-hover:translate-y-0 translate-y-full transition-all"
+            style="backdrop-filter: blur(4.5px);">
+            <div class="flex justify-between items-center mb-2">
+              <h4 class="text-base font-semibold"><span><?= $data['card_8']['surname'] ?> </span><br><span class="font-normal"><?= $data['card_8']['name_light'] ?></span></h4>
+              <p class="text-xs text-[#141619]"><?= $data['card_8']['position'] ?></p>
+            </div>
+            <p class="text-xs mb-2"><?= $data['card_8']['text'] ?>
+            </p>
+            <div class="flex gap-4 items-center">
+              <a href="tel:+998905463326" class="text-lg "><i class="fa-solid fa-phone"></i></i></a>
+              <a target="_blank" href="#" class="text-lg "><i class="fa-brands fa-facebook"></i></i></a>
+              <a target="_blank" href="#" class="text-lg "><i class="fa-brands fa-instagram"></i></i></a>
+              <a target="_blank" href="https://t.me/Never_g1veUp" class="text-lg "><i
+                  class="fa-brands fa-telegram"></i></a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>

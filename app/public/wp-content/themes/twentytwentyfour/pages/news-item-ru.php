@@ -145,30 +145,24 @@ $data = get_fields();
 
 
 
-
 <section class="bg-[#141415] pt-16 pb-16">
     <div class="max-w-[1322px] mx-auto px-5">
-      <div
-          style="background-image:  linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(2, 134, 239, 0.40) 341.42%) , url(<?php echo get_template_directory_uri(); ?>/assets/img/news/news-bg-card.png)"
-          class="card-hover bg-cover flex flex-col items-center text-center pt-8 md:pb-[287px] pb-[120px] mb-8">
-          <div class="flex justify-start pl-8 md:mb-[136px] mb-16 w-full">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" alt="logo">
-          </div>
+        <div style="background-image:  linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(2, 134, 239, 0.40) 341.42%) , url(<?php echo get_template_directory_uri(); ?>/assets/img/news/news-bg-card.png)" class="card-hover bg-cover flex flex-col items-center text-center pt-8 md:pb-[287px] pb-[120px] mb-8">
+            <div class="flex justify-start pl-8 md:mb-[136px] mb-16 w-full">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" alt="logo">
+            </div>
 
-          <h3 class="text-white md:text-[64px] text-5xl font-semibold"><span class="text-[#FFC700]">Ochilish </span>
-            <span class="block uppercase">MAROSIMIGA</span>
-            <span class="md:text-[48px] text-4xl  text-[#FFC700]">taklif qilamiz</span> !
-          </h3>
+            <h3 class="text-white md:text-[64px] text-5xl font-semibold"><span class="text-[#FFC700]"><?= $data['main_title']  ?></span>
+                <span class="block uppercase"><?= $data['main_title_white']  ?></span>
+                <span class="md:text-[48px] text-4xl  text-[#FFC700]"><?= $data['main_title_yellow']  ?></span>
+            </h3>
         </div>
-        <time class="text-white text-3xl font-bold mb-2.5">10.11.2023</time>
-        <p class="text-white text-xl leading-[36px]">Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID, DTM, ko‘plab Internetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID, DTM, 
-          ko‘plabInternetga 200 mingdan ortiq o‘zbekistonlik foydalanuvchilarning ma’lumotlari sizdirildi. Kun.uz bilan gaplashgan mutaxassislarga ko‘ra, sizdirilgan parollar – OneID, DTM, 
-          </p>
-
+        <time class="text-white text-3xl font-bold mb-2.5"><?= $data['data']  ?></time>
+        <p class="text-white text-xl leading-[36px]">
+            <?= $data['text']  ?>
+        </p>
     </div>
-  </section>
-
-
+</section>
 
 
 

@@ -153,7 +153,7 @@ $data = get_fields();
         </style>
         <h1 class="md:text-[64px] text-4xl font-semibold text-white  text-center mb-24 relative after:text-[#141415] after:content-['<?= $data['news']['title']?>'] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:block after:text-[58px] md:after:text-[128px] after:z-10 uppercase"><span class="relative z-30"><?= $data['news']['title']?></span></h1>
         <div class="grid lg:grid-cols-2 gap-5 mb-5">
-            <a href="/news-item/" style="background-image:  linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(2, 134, 239, 0.40) 341.42%) , url(<?php echo get_template_directory_uri(); ?>/assets/img/news/news-bg-card.png)" class="card-hover bg-cover flex flex-col items-center text-center pt-16 md:pb-[364px] pb-32">
+            <a href="/news-item-ru/" style="background-image:  linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(2, 134, 239, 0.40) 341.42%) , url(<?php echo get_template_directory_uri(); ?>/assets/img/news/news-bg-card.png)" class="card-hover bg-cover flex flex-col items-center text-center pt-16 md:pb-[364px] pb-32">
                 <img class="mb-[105px]" src="<?php echo get_template_directory_uri(); ?>/assets/img/ipro-logo.svg" alt="logo">
 
                 <h3 class="text-white text-[40px] font-semibold"><span class="text-[32px] text-[#FFC700]"><?= $data['news']['elon']?></span>
@@ -162,28 +162,28 @@ $data = get_fields();
                 </h3>
             </a>
             <div class="grid md:grid-cols-2 gap-x-5 gap-y-[22px]">
-                <a href="/news-item/" class="card-hover bg-[#252527]">
+                <a href="/news-item-ru/" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-1.jpg" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
                         <time class="text-sm text-white font-bold mb-2"><?= $data['news']['card_1']['data']?></time>
                         <p class="text-white text-sm "><?= $data['news']['card_2']['text']?></p>
                     </div>
                 </a>
-                <a href="/news-item/" class="card-hover bg-[#252527]">
+                <a href="/news-item-ru/" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-2.jpg" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
                         <time class="text-sm text-white font-bold mb-2"><?= $data['news']['card_2']['data']?></time>
                         <p class="text-white text-sm "><?= $data['news']['card_2']['text']?></p>
                     </div>
                 </a>
-                <a href="/news-item/" class="card-hover bg-[#252527]">
+                <a href="/news-item-ru/" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-3.jpg" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
                         <time class="text-sm text-white font-bold mb-2"><?= $data['news']['card_3']['data']?></time>
                         <p class="text-white text-sm "><?= $data['news']['card_2']['text']?></p>
                     </div>
                 </a>
-                <a href="/news-item/" class="card-hover bg-[#252527]">
+                <a href="/news-item-ru/" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-4.png" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
                         <time class="text-sm text-white font-bold mb-2"><?= $data['news']['card_4']['data']?></time>
@@ -195,14 +195,14 @@ $data = get_fields();
         <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
 
             <div class="grid grid-cols-1  gap-x-5 gap-y-[22px]">
-                <a href="/news-item/" class="card-hover bg-[#252527]">
+                <a href="/news-item-ru/" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-5.jpg" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
                         <time class="text-sm text-white font-bold mb-2"><?= $data['news_2']['card_1']['data']?></time>
                         <p class="text-white text-sm "><?= $data['news_2']['card_2']['text']?></p>
                     </div>
                 </a>
-                <a href="/news-item/" class="card-hover bg-[#252527]">
+                <a href="/news-item-ru/" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-6.jpg" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
                         <time class="text-sm text-white font-bold mb-2"><?= $data['news_2']['card_1']['data']?></time>
@@ -210,7 +210,7 @@ $data = get_fields();
                     </div>
                 </a>
             </div>
-            <a href="/news-item/" style="background-image:  linear-gradient(180deg, rgba(255, 255, 255, 0.11) 15.93%, rgba(2, 134, 239, 0.60) 100%) , url(<?php echo get_template_directory_uri(); ?>/assets/img/news/news-big-card.png)" class="md:col-span-2 card-hover bg-cover flex flex-col items-center text-center pt-6 md:pb-[364px] pb-32 -order-1 lg:order-none">
+            <a href="/news-item-ru/" style="background-image:  linear-gradient(180deg, rgba(255, 255, 255, 0.11) 15.93%, rgba(2, 134, 239, 0.60) 100%) , url(<?php echo get_template_directory_uri(); ?>/assets/img/news/news-big-card.png)" class="md:col-span-2 card-hover bg-cover flex flex-col items-center text-center pt-6 md:pb-[364px] pb-32 -order-1 lg:order-none">
                 <div class="flex justify-start pl-8 md:mb-[216px] mb-32 w-full">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ipro-logo.svg" alt="logo">
                 </div>
@@ -223,14 +223,14 @@ $data = get_fields();
 
             </a>
             <div class="grid grid-cols-1 gap-x-5 gap-y-[22px]">
-                <a href="/news-item/" class="card-hover bg-[#252527]">
+                <a href="/news-item-ru/" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-7.png" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
                         <time class="text-sm text-white font-bold mb-2"><?= $data['news_2']['card_1']['data']?></time>
                         <p class="text-white text-sm "><?= $data['news_2']['card_2']['text']?></p>
                     </div>
                 </a>
-                <a href="/news-item/" class="card-hover bg-[#252527]">
+                <a href="/news-item-ru/" class="card-hover bg-[#252527]">
                     <img class="w-full h-[184px] object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/news/img-8.png" alt="news-img">
                     <div class="px-3 pt-5 pb-10">
                         <time class="text-sm text-white font-bold mb-2"><?= $data['news_2']['card_1']['data']?></time>
