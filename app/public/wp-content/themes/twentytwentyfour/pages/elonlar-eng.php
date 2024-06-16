@@ -141,484 +141,407 @@ $data = get_fields();
 <div class="pt-24"></div>
 
 
-
-
-
-  <!-- vakansiya -->
-  <section class="bg-[#141415] pt-8 pb-16">
+<!-- Vakansiyalar -->
+<section class="bg-[#141415] pt-8 pb-16">
     <div class="max-w-[1322px] mx-auto px-5">
-      <h2 class="text-white text-4xl font-semibold mb-16"></h2>
-      <style>
-        h1::after {
-          text-shadow: 0 0 2px rgba(255, 255, 255, 0.25);
-        }
-      </style>
-      <h1
-        class="md:text-[64px] text-4xl font-semibold text-white  text-center mb-24 relative after:text-[#141415] after:content-['VACANCY'] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:block after:text-[68px] md:after:text-[128px] after:z-10 uppercase">
-        <span class="relative z-30">VACANCY</span>
-      </h1>
-      <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-5">
-        <a href="#form" class="group rounded-lg">
-          <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
-            <div class="">
-              <h3 class="text-sm text-white font-semibold mb-5">Frontend dasturchisi-VueJS, Javascript</h3>
-              <hr class="w-full block bg-white border-none h-px mb-2.5">
-              <div class="flex gap-2 justify-between">
-                <div class="flex gap-4 items-center">
-                  <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path
-                        d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z"
-                        fill="#1D1D1D" />
-                    </svg></div>
-                  <span class="text-xs text-white font-semibold">MONDAY-SATURDAY</span>
+        <h2 class="text-white text-4xl font-semibold mb-16"></h2>
+        <style>
+            h1::after {
+                text-shadow: 0 0 2px rgba(255, 255, 255, 0.25);
+            }
+        </style>
+        <h1 class="md:text-[64px] text-4xl font-semibold text-white  text-center mb-24 relative after:text-[#141415] after:content-['<?= $data['vakansiya']['main_title'] ?>'] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:block after:text-[68px] md:after:text-[128px] after:z-10 uppercase">
+            <span class="relative z-30"><?= $data['vakansiya']['main_title'] ?></span>
+        </h1>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-x-5">
+            <a href="/elonlar#form" class="group rounded-lg">
+                <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
+                    <div class="">
+                        <h3 class="text-sm text-white font-semibold mb-5"><?= $data['vakansiya']['card_1']['text']  ?></h3>
+                        <hr class="w-full block bg-white border-none h-px mb-2.5">
+                        <div class="flex gap-2 justify-between">
+                            <div class="flex gap-4 items-center">
+                                <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z" fill="#1D1D1D" />
+                                    </svg></div>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_1']['days']  ?></span>
+                            </div>
+                            <div class="flex gap-4 items-center">
+                                <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <g id="Group">
+                                            <g id="Group_2">
+                                                <path id="Vector" d="M10 0C4.5 0 0 4.5 0 10C0 15.5 4.5 20 10 20C15.5 20 20 15.5 20 10C20 4.5 15.5 0 10 0ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10.5 5H9V11L14.2 14.2L15 12.9L10.5 10.2V5Z" fill="#323232" />
+                                            </g>
+                                        </g>
+                                    </svg></div>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_1']['time']  ?></span>
+                            </div>
+
+
+                        </div>
+                    </div>
                 </div>
-                <div class="flex gap-4 items-center">
-                  <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                      <g id="Group">
-                        <g id="Group_2">
-                          <path id="Vector"
-                            d="M10 0C4.5 0 0 4.5 0 10C0 15.5 4.5 20 10 20C15.5 20 20 15.5 20 10C20 4.5 15.5 0 10 0ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10.5 5H9V11L14.2 14.2L15 12.9L10.5 10.2V5Z"
-                            fill="#323232" />
-                        </g>
-                      </g>
-                    </svg></div>
-                  <span class="text-xs text-white font-semibold">10:00 - 18:00</span>
+                <div class="px-9 -translate-y-5">
+                    <div class="rounded-lg bg-[rgba(255,255,255,0.56)] backdrop-blur-sm px-5 py-2">
+                        <div class="flex justify-between items-center">
+                            <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <g clip-path="url(#clip0_717_1363)">
+                                        <path d="M9.99984 1.6665C5.39984 1.6665 1.6665 5.39984 1.6665 9.99984C1.6665 14.5998 5.39984 18.3332 9.99984 18.3332C14.5998 18.3332 18.3332 14.5998 18.3332 9.99984C18.3332 5.39984 14.5998 1.6665 9.99984 1.6665ZM9.99984 16.6665C6.32484 16.6665 3.33317 13.6748 3.33317 9.99984C3.33317 6.32484 6.32484 3.33317 9.99984 3.33317C13.6748 3.33317 16.6665 6.32484 16.6665 9.99984C16.6665 13.6748 13.6748 16.6665 9.99984 16.6665ZM10.2582 9.28317C8.78317 8.90817 8.30817 8.49984 8.30817 7.8915C8.30817 7.1915 8.9665 6.69984 10.0582 6.69984C11.2082 6.69984 11.6415 7.24984 11.6748 8.0665H13.0998C13.0582 6.94984 12.3748 5.92484 11.0248 5.5915V4.1665H9.08317V5.57484C7.82484 5.8415 6.8165 6.65817 6.8165 7.9165C6.8165 9.40817 8.05817 10.1582 9.8665 10.5915C11.4915 10.9748 11.8165 11.5498 11.8165 12.1498C11.8165 12.5915 11.4915 13.3082 10.0665 13.3082C8.73317 13.3082 8.20817 12.7082 8.13317 11.9415H6.69984C6.78317 13.3582 7.83317 14.1582 9.08317 14.4165V15.8332H11.0332V14.4415C12.2998 14.1998 13.2998 13.4748 13.3082 12.1332C13.2998 10.2998 11.7248 9.6665 10.2582 9.28317Z" fill="#0186EF" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_717_1363">
+                                            <rect width="20" height="20" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg></div>
+                            <b class="text-white text-sm font-black">5 000 000 - 20 000 000 </b>
+                            <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <g clip-path="url(#clip0_717_1365)">
+                                        <path d="M8.33325 14.1668L12.4999 10.0002L8.33325 5.8335V14.1668Z" fill="#0186EF" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_717_1365">
+                                            <rect width="20" height="20" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg></div>
+                        </div>
+                    </div>
                 </div>
+            </a>
+            <a href="/elonlar#form" class="group rounded-lg">
+                <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
+                    <div class="">
+                        <h3 class="text-sm text-white font-semibold mb-5"><?= $data['vakansiya']['card_2']['text']  ?></h3>
+                        <hr class="w-full block bg-white border-none h-px mb-2.5">
+                        <div class="flex gap-2 justify-between">
+                            <div class="flex gap-4 items-center">
+                                <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z" fill="#1D1D1D" />
+                                    </svg></div>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_2']['days']  ?></span>
+                            </div>
+                            <div class="flex gap-4 items-center">
+                                <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <g id="Group">
+                                            <g id="Group_2">
+                                                <path id="Vector" d="M10 0C4.5 0 0 4.5 0 10C0 15.5 4.5 20 10 20C15.5 20 20 15.5 20 10C20 4.5 15.5 0 10 0ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10.5 5H9V11L14.2 14.2L15 12.9L10.5 10.2V5Z" fill="#323232" />
+                                            </g>
+                                        </g>
+                                    </svg></div>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_2']['time']  ?></span>
+                            </div>
 
 
-              </div>
-            </div>
-          </div>
-          <div class="px-9 -translate-y-5">
-            <div class="rounded-lg bg-[rgba(255,255,255,0.56)] backdrop-blur-sm px-5 py-2">
-              <div class="flex justify-between items-center">
-                <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg
-                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <g clip-path="url(#clip0_717_1363)">
-                      <path
-                        d="M9.99984 1.6665C5.39984 1.6665 1.6665 5.39984 1.6665 9.99984C1.6665 14.5998 5.39984 18.3332 9.99984 18.3332C14.5998 18.3332 18.3332 14.5998 18.3332 9.99984C18.3332 5.39984 14.5998 1.6665 9.99984 1.6665ZM9.99984 16.6665C6.32484 16.6665 3.33317 13.6748 3.33317 9.99984C3.33317 6.32484 6.32484 3.33317 9.99984 3.33317C13.6748 3.33317 16.6665 6.32484 16.6665 9.99984C16.6665 13.6748 13.6748 16.6665 9.99984 16.6665ZM10.2582 9.28317C8.78317 8.90817 8.30817 8.49984 8.30817 7.8915C8.30817 7.1915 8.9665 6.69984 10.0582 6.69984C11.2082 6.69984 11.6415 7.24984 11.6748 8.0665H13.0998C13.0582 6.94984 12.3748 5.92484 11.0248 5.5915V4.1665H9.08317V5.57484C7.82484 5.8415 6.8165 6.65817 6.8165 7.9165C6.8165 9.40817 8.05817 10.1582 9.8665 10.5915C11.4915 10.9748 11.8165 11.5498 11.8165 12.1498C11.8165 12.5915 11.4915 13.3082 10.0665 13.3082C8.73317 13.3082 8.20817 12.7082 8.13317 11.9415H6.69984C6.78317 13.3582 7.83317 14.1582 9.08317 14.4165V15.8332H11.0332V14.4415C12.2998 14.1998 13.2998 13.4748 13.3082 12.1332C13.2998 10.2998 11.7248 9.6665 10.2582 9.28317Z"
-                        fill="#0186EF" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_717_1363">
-                        <rect width="20" height="20" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg></div>
-                <b class="text-white text-sm font-black">2 000 000 - 15 000 000 </b>
-                <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg
-                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <g clip-path="url(#clip0_717_1365)">
-                      <path d="M8.33325 14.1668L12.4999 10.0002L8.33325 5.8335V14.1668Z" fill="#0186EF" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_717_1365">
-                        <rect width="20" height="20" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg></div>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a href="#form" class="group rounded-lg">
-          <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
-            <div class="">
-              <h3 class="text-sm text-white font-semibold mb-5">Frontend dasturchisi-VueJS, Javascript</h3>
-              <hr class="w-full block bg-white border-none h-px mb-2.5">
-              <div class="flex gap-2 justify-between">
-                <div class="flex gap-4 items-center">
-                  <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path
-                        d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z"
-                        fill="#1D1D1D" />
-                    </svg></div>
-                  <span class="text-xs text-white font-semibold">MONDAY-SATURDAY</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="flex gap-4 items-center">
-                  <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                      <g id="Group">
-                        <g id="Group_2">
-                          <path id="Vector"
-                            d="M10 0C4.5 0 0 4.5 0 10C0 15.5 4.5 20 10 20C15.5 20 20 15.5 20 10C20 4.5 15.5 0 10 0ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10.5 5H9V11L14.2 14.2L15 12.9L10.5 10.2V5Z"
-                            fill="#323232" />
-                        </g>
-                      </g>
-                    </svg></div>
-                  <span class="text-xs text-white font-semibold">10:00 - 18:00</span>
+                <div class="px-9 -translate-y-5">
+                    <div class="rounded-lg bg-[rgba(255,255,255,0.56)] backdrop-blur-sm px-5 py-2">
+                        <div class="flex justify-between items-center">
+                            <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <g clip-path="url(#clip0_717_1363)">
+                                        <path d="M9.99984 1.6665C5.39984 1.6665 1.6665 5.39984 1.6665 9.99984C1.6665 14.5998 5.39984 18.3332 9.99984 18.3332C14.5998 18.3332 18.3332 14.5998 18.3332 9.99984C18.3332 5.39984 14.5998 1.6665 9.99984 1.6665ZM9.99984 16.6665C6.32484 16.6665 3.33317 13.6748 3.33317 9.99984C3.33317 6.32484 6.32484 3.33317 9.99984 3.33317C13.6748 3.33317 16.6665 6.32484 16.6665 9.99984C16.6665 13.6748 13.6748 16.6665 9.99984 16.6665ZM10.2582 9.28317C8.78317 8.90817 8.30817 8.49984 8.30817 7.8915C8.30817 7.1915 8.9665 6.69984 10.0582 6.69984C11.2082 6.69984 11.6415 7.24984 11.6748 8.0665H13.0998C13.0582 6.94984 12.3748 5.92484 11.0248 5.5915V4.1665H9.08317V5.57484C7.82484 5.8415 6.8165 6.65817 6.8165 7.9165C6.8165 9.40817 8.05817 10.1582 9.8665 10.5915C11.4915 10.9748 11.8165 11.5498 11.8165 12.1498C11.8165 12.5915 11.4915 13.3082 10.0665 13.3082C8.73317 13.3082 8.20817 12.7082 8.13317 11.9415H6.69984C6.78317 13.3582 7.83317 14.1582 9.08317 14.4165V15.8332H11.0332V14.4415C12.2998 14.1998 13.2998 13.4748 13.3082 12.1332C13.2998 10.2998 11.7248 9.6665 10.2582 9.28317Z" fill="#0186EF" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_717_1363">
+                                            <rect width="20" height="20" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg></div>
+                            <b class="text-white text-sm font-black">5 000 000 - 20 000 000 </b>
+                            <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <g clip-path="url(#clip0_717_1365)">
+                                        <path d="M8.33325 14.1668L12.4999 10.0002L8.33325 5.8335V14.1668Z" fill="#0186EF" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_717_1365">
+                                            <rect width="20" height="20" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg></div>
+                        </div>
+                    </div>
                 </div>
+            </a>
+            <a href="/elonlar#form" class="group rounded-lg">
+                <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
+                    <div class="">
+                        <h3 class="text-sm text-white font-semibold mb-5"><?= $data['vakansiya']['card_3']['text']  ?></h3>
+                        <hr class="w-full block bg-white border-none h-px mb-2.5">
+                        <div class="flex gap-2 justify-between">
+                            <div class="flex gap-4 items-center">
+                                <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z" fill="#1D1D1D" />
+                                    </svg></div>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_3']['days']  ?></span>
+                            </div>
+                            <div class="flex gap-4 items-center">
+                                <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <g id="Group">
+                                            <g id="Group_2">
+                                                <path id="Vector" d="M10 0C4.5 0 0 4.5 0 10C0 15.5 4.5 20 10 20C15.5 20 20 15.5 20 10C20 4.5 15.5 0 10 0ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10.5 5H9V11L14.2 14.2L15 12.9L10.5 10.2V5Z" fill="#323232" />
+                                            </g>
+                                        </g>
+                                    </svg></div>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_3']['time']  ?></span>
+                            </div>
 
 
-              </div>
-            </div>
-          </div>
-          <div class="px-9 -translate-y-5">
-            <div class="rounded-lg bg-[rgba(255,255,255,0.56)] backdrop-blur-sm px-5 py-2">
-              <div class="flex justify-between items-center">
-                <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg
-                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <g clip-path="url(#clip0_717_1363)">
-                      <path
-                        d="M9.99984 1.6665C5.39984 1.6665 1.6665 5.39984 1.6665 9.99984C1.6665 14.5998 5.39984 18.3332 9.99984 18.3332C14.5998 18.3332 18.3332 14.5998 18.3332 9.99984C18.3332 5.39984 14.5998 1.6665 9.99984 1.6665ZM9.99984 16.6665C6.32484 16.6665 3.33317 13.6748 3.33317 9.99984C3.33317 6.32484 6.32484 3.33317 9.99984 3.33317C13.6748 3.33317 16.6665 6.32484 16.6665 9.99984C16.6665 13.6748 13.6748 16.6665 9.99984 16.6665ZM10.2582 9.28317C8.78317 8.90817 8.30817 8.49984 8.30817 7.8915C8.30817 7.1915 8.9665 6.69984 10.0582 6.69984C11.2082 6.69984 11.6415 7.24984 11.6748 8.0665H13.0998C13.0582 6.94984 12.3748 5.92484 11.0248 5.5915V4.1665H9.08317V5.57484C7.82484 5.8415 6.8165 6.65817 6.8165 7.9165C6.8165 9.40817 8.05817 10.1582 9.8665 10.5915C11.4915 10.9748 11.8165 11.5498 11.8165 12.1498C11.8165 12.5915 11.4915 13.3082 10.0665 13.3082C8.73317 13.3082 8.20817 12.7082 8.13317 11.9415H6.69984C6.78317 13.3582 7.83317 14.1582 9.08317 14.4165V15.8332H11.0332V14.4415C12.2998 14.1998 13.2998 13.4748 13.3082 12.1332C13.2998 10.2998 11.7248 9.6665 10.2582 9.28317Z"
-                        fill="#0186EF" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_717_1363">
-                        <rect width="20" height="20" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg></div>
-                <b class="text-white text-sm font-black">2 000 000 - 15 000 000 </b>
-                <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg
-                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <g clip-path="url(#clip0_717_1365)">
-                      <path d="M8.33325 14.1668L12.4999 10.0002L8.33325 5.8335V14.1668Z" fill="#0186EF" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_717_1365">
-                        <rect width="20" height="20" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg></div>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a href="#form" class="group rounded-lg">
-          <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
-            <div class="">
-              <h3 class="text-sm text-white font-semibold mb-5">Frontend dasturchisi-VueJS, Javascript</h3>
-              <hr class="w-full block bg-white border-none h-px mb-2.5">
-              <div class="flex gap-2 justify-between">
-                <div class="flex gap-4 items-center">
-                  <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path
-                        d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z"
-                        fill="#1D1D1D" />
-                    </svg></div>
-                  <span class="text-xs text-white font-semibold">MONDAY-SATURDAY</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="flex gap-4 items-center">
-                  <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                      <g id="Group">
-                        <g id="Group_2">
-                          <path id="Vector"
-                            d="M10 0C4.5 0 0 4.5 0 10C0 15.5 4.5 20 10 20C15.5 20 20 15.5 20 10C20 4.5 15.5 0 10 0ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10.5 5H9V11L14.2 14.2L15 12.9L10.5 10.2V5Z"
-                            fill="#323232" />
-                        </g>
-                      </g>
-                    </svg></div>
-                  <span class="text-xs text-white font-semibold">10:00 - 18:00</span>
+                <div class="px-9 -translate-y-5">
+                    <div class="rounded-lg bg-[rgba(255,255,255,0.56)] backdrop-blur-sm px-5 py-2">
+                        <div class="flex justify-between items-center">
+                            <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <g clip-path="url(#clip0_717_1363)">
+                                        <path d="M9.99984 1.6665C5.39984 1.6665 1.6665 5.39984 1.6665 9.99984C1.6665 14.5998 5.39984 18.3332 9.99984 18.3332C14.5998 18.3332 18.3332 14.5998 18.3332 9.99984C18.3332 5.39984 14.5998 1.6665 9.99984 1.6665ZM9.99984 16.6665C6.32484 16.6665 3.33317 13.6748 3.33317 9.99984C3.33317 6.32484 6.32484 3.33317 9.99984 3.33317C13.6748 3.33317 16.6665 6.32484 16.6665 9.99984C16.6665 13.6748 13.6748 16.6665 9.99984 16.6665ZM10.2582 9.28317C8.78317 8.90817 8.30817 8.49984 8.30817 7.8915C8.30817 7.1915 8.9665 6.69984 10.0582 6.69984C11.2082 6.69984 11.6415 7.24984 11.6748 8.0665H13.0998C13.0582 6.94984 12.3748 5.92484 11.0248 5.5915V4.1665H9.08317V5.57484C7.82484 5.8415 6.8165 6.65817 6.8165 7.9165C6.8165 9.40817 8.05817 10.1582 9.8665 10.5915C11.4915 10.9748 11.8165 11.5498 11.8165 12.1498C11.8165 12.5915 11.4915 13.3082 10.0665 13.3082C8.73317 13.3082 8.20817 12.7082 8.13317 11.9415H6.69984C6.78317 13.3582 7.83317 14.1582 9.08317 14.4165V15.8332H11.0332V14.4415C12.2998 14.1998 13.2998 13.4748 13.3082 12.1332C13.2998 10.2998 11.7248 9.6665 10.2582 9.28317Z" fill="#0186EF" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_717_1363">
+                                            <rect width="20" height="20" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg></div>
+                            <b class="text-white text-sm font-black">5 000 000 - 20 000 000 </b>
+                            <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <g clip-path="url(#clip0_717_1365)">
+                                        <path d="M8.33325 14.1668L12.4999 10.0002L8.33325 5.8335V14.1668Z" fill="#0186EF" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_717_1365">
+                                            <rect width="20" height="20" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg></div>
+                        </div>
+                    </div>
                 </div>
+            </a>
+            <a href="/elonlar#form" class="group rounded-lg">
+                <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
+                    <div class="">
+                        <h3 class="text-sm text-white font-semibold mb-5"><?= $data['vakansiya']['card_4']['text']  ?></h3>
+                        <hr class="w-full block bg-white border-none h-px mb-2.5">
+                        <div class="flex gap-2 justify-between">
+                            <div class="flex gap-4 items-center">
+                                <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z" fill="#1D1D1D" />
+                                    </svg></div>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_4']['days']  ?></span>
+                            </div>
+                            <div class="flex gap-4 items-center">
+                                <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <g id="Group">
+                                            <g id="Group_2">
+                                                <path id="Vector" d="M10 0C4.5 0 0 4.5 0 10C0 15.5 4.5 20 10 20C15.5 20 20 15.5 20 10C20 4.5 15.5 0 10 0ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10.5 5H9V11L14.2 14.2L15 12.9L10.5 10.2V5Z" fill="#323232" />
+                                            </g>
+                                        </g>
+                                    </svg></div>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_4']['time']  ?></span>
+                            </div>
 
 
-              </div>
-            </div>
-          </div>
-          <div class="px-9 -translate-y-5">
-            <div class="rounded-lg bg-[rgba(255,255,255,0.56)] backdrop-blur-sm px-5 py-2">
-              <div class="flex justify-between items-center">
-                <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg
-                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <g clip-path="url(#clip0_717_1363)">
-                      <path
-                        d="M9.99984 1.6665C5.39984 1.6665 1.6665 5.39984 1.6665 9.99984C1.6665 14.5998 5.39984 18.3332 9.99984 18.3332C14.5998 18.3332 18.3332 14.5998 18.3332 9.99984C18.3332 5.39984 14.5998 1.6665 9.99984 1.6665ZM9.99984 16.6665C6.32484 16.6665 3.33317 13.6748 3.33317 9.99984C3.33317 6.32484 6.32484 3.33317 9.99984 3.33317C13.6748 3.33317 16.6665 6.32484 16.6665 9.99984C16.6665 13.6748 13.6748 16.6665 9.99984 16.6665ZM10.2582 9.28317C8.78317 8.90817 8.30817 8.49984 8.30817 7.8915C8.30817 7.1915 8.9665 6.69984 10.0582 6.69984C11.2082 6.69984 11.6415 7.24984 11.6748 8.0665H13.0998C13.0582 6.94984 12.3748 5.92484 11.0248 5.5915V4.1665H9.08317V5.57484C7.82484 5.8415 6.8165 6.65817 6.8165 7.9165C6.8165 9.40817 8.05817 10.1582 9.8665 10.5915C11.4915 10.9748 11.8165 11.5498 11.8165 12.1498C11.8165 12.5915 11.4915 13.3082 10.0665 13.3082C8.73317 13.3082 8.20817 12.7082 8.13317 11.9415H6.69984C6.78317 13.3582 7.83317 14.1582 9.08317 14.4165V15.8332H11.0332V14.4415C12.2998 14.1998 13.2998 13.4748 13.3082 12.1332C13.2998 10.2998 11.7248 9.6665 10.2582 9.28317Z"
-                        fill="#0186EF" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_717_1363">
-                        <rect width="20" height="20" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg></div>
-                <b class="text-white text-sm font-black">2 000 000 - 15 000 000 </b>
-                <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg
-                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <g clip-path="url(#clip0_717_1365)">
-                      <path d="M8.33325 14.1668L12.4999 10.0002L8.33325 5.8335V14.1668Z" fill="#0186EF" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_717_1365">
-                        <rect width="20" height="20" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg></div>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a href="#form" class="group rounded-lg">
-          <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
-            <div class="">
-              <h3 class="text-sm text-white font-semibold mb-5">Frontend dasturchisi-VueJS, Javascript</h3>
-              <hr class="w-full block bg-white border-none h-px mb-2.5">
-              <div class="flex gap-2 justify-between">
-                <div class="flex gap-4 items-center">
-                  <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path
-                        d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z"
-                        fill="#1D1D1D" />
-                    </svg></div>
-                  <span class="text-xs text-white font-semibold">MONDAY-SATURDAY</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="flex gap-4 items-center">
-                  <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                      <g id="Group">
-                        <g id="Group_2">
-                          <path id="Vector"
-                            d="M10 0C4.5 0 0 4.5 0 10C0 15.5 4.5 20 10 20C15.5 20 20 15.5 20 10C20 4.5 15.5 0 10 0ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10.5 5H9V11L14.2 14.2L15 12.9L10.5 10.2V5Z"
-                            fill="#323232" />
-                        </g>
-                      </g>
-                    </svg></div>
-                  <span class="text-xs text-white font-semibold">10:00 - 18:00</span>
+                <div class="px-9 -translate-y-5">
+                    <div class="rounded-lg bg-[rgba(255,255,255,0.56)] backdrop-blur-sm px-5 py-2">
+                        <div class="flex justify-between items-center">
+                            <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <g clip-path="url(#clip0_717_1363)">
+                                        <path d="M9.99984 1.6665C5.39984 1.6665 1.6665 5.39984 1.6665 9.99984C1.6665 14.5998 5.39984 18.3332 9.99984 18.3332C14.5998 18.3332 18.3332 14.5998 18.3332 9.99984C18.3332 5.39984 14.5998 1.6665 9.99984 1.6665ZM9.99984 16.6665C6.32484 16.6665 3.33317 13.6748 3.33317 9.99984C3.33317 6.32484 6.32484 3.33317 9.99984 3.33317C13.6748 3.33317 16.6665 6.32484 16.6665 9.99984C16.6665 13.6748 13.6748 16.6665 9.99984 16.6665ZM10.2582 9.28317C8.78317 8.90817 8.30817 8.49984 8.30817 7.8915C8.30817 7.1915 8.9665 6.69984 10.0582 6.69984C11.2082 6.69984 11.6415 7.24984 11.6748 8.0665H13.0998C13.0582 6.94984 12.3748 5.92484 11.0248 5.5915V4.1665H9.08317V5.57484C7.82484 5.8415 6.8165 6.65817 6.8165 7.9165C6.8165 9.40817 8.05817 10.1582 9.8665 10.5915C11.4915 10.9748 11.8165 11.5498 11.8165 12.1498C11.8165 12.5915 11.4915 13.3082 10.0665 13.3082C8.73317 13.3082 8.20817 12.7082 8.13317 11.9415H6.69984C6.78317 13.3582 7.83317 14.1582 9.08317 14.4165V15.8332H11.0332V14.4415C12.2998 14.1998 13.2998 13.4748 13.3082 12.1332C13.2998 10.2998 11.7248 9.6665 10.2582 9.28317Z" fill="#0186EF" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_717_1363">
+                                            <rect width="20" height="20" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg></div>
+                            <b class="text-white text-sm font-black">5 000 000 - 20 000 000 </b>
+                            <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <g clip-path="url(#clip0_717_1365)">
+                                        <path d="M8.33325 14.1668L12.4999 10.0002L8.33325 5.8335V14.1668Z" fill="#0186EF" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_717_1365">
+                                            <rect width="20" height="20" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg></div>
+                        </div>
+                    </div>
                 </div>
+            </a>
+            <a href="/elonlar#form" class="group rounded-lg">
+                <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
+                    <div class="">
+                        <h3 class="text-sm text-white font-semibold mb-5"><?= $data['vakansiya']['card_5']['text']  ?></h3>
+                        <hr class="w-full block bg-white border-none h-px mb-2.5">
+                        <div class="flex gap-2 justify-between">
+                            <div class="flex gap-4 items-center">
+                                <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z" fill="#1D1D1D" />
+                                    </svg></div>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_5']['days']  ?></span>
+                            </div>
+                            <div class="flex gap-4 items-center">
+                                <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <g id="Group">
+                                            <g id="Group_2">
+                                                <path id="Vector" d="M10 0C4.5 0 0 4.5 0 10C0 15.5 4.5 20 10 20C15.5 20 20 15.5 20 10C20 4.5 15.5 0 10 0ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10.5 5H9V11L14.2 14.2L15 12.9L10.5 10.2V5Z" fill="#323232" />
+                                            </g>
+                                        </g>
+                                    </svg></div>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_5']['time']  ?></span>
+                            </div>
 
 
-              </div>
-            </div>
-          </div>
-          <div class="px-9 -translate-y-5">
-            <div class="rounded-lg bg-[rgba(255,255,255,0.56)] backdrop-blur-sm px-5 py-2">
-              <div class="flex justify-between items-center">
-                <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg
-                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <g clip-path="url(#clip0_717_1363)">
-                      <path
-                        d="M9.99984 1.6665C5.39984 1.6665 1.6665 5.39984 1.6665 9.99984C1.6665 14.5998 5.39984 18.3332 9.99984 18.3332C14.5998 18.3332 18.3332 14.5998 18.3332 9.99984C18.3332 5.39984 14.5998 1.6665 9.99984 1.6665ZM9.99984 16.6665C6.32484 16.6665 3.33317 13.6748 3.33317 9.99984C3.33317 6.32484 6.32484 3.33317 9.99984 3.33317C13.6748 3.33317 16.6665 6.32484 16.6665 9.99984C16.6665 13.6748 13.6748 16.6665 9.99984 16.6665ZM10.2582 9.28317C8.78317 8.90817 8.30817 8.49984 8.30817 7.8915C8.30817 7.1915 8.9665 6.69984 10.0582 6.69984C11.2082 6.69984 11.6415 7.24984 11.6748 8.0665H13.0998C13.0582 6.94984 12.3748 5.92484 11.0248 5.5915V4.1665H9.08317V5.57484C7.82484 5.8415 6.8165 6.65817 6.8165 7.9165C6.8165 9.40817 8.05817 10.1582 9.8665 10.5915C11.4915 10.9748 11.8165 11.5498 11.8165 12.1498C11.8165 12.5915 11.4915 13.3082 10.0665 13.3082C8.73317 13.3082 8.20817 12.7082 8.13317 11.9415H6.69984C6.78317 13.3582 7.83317 14.1582 9.08317 14.4165V15.8332H11.0332V14.4415C12.2998 14.1998 13.2998 13.4748 13.3082 12.1332C13.2998 10.2998 11.7248 9.6665 10.2582 9.28317Z"
-                        fill="#0186EF" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_717_1363">
-                        <rect width="20" height="20" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg></div>
-                <b class="text-white text-sm font-black">2 000 000 - 15 000 000 </b>
-                <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg
-                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <g clip-path="url(#clip0_717_1365)">
-                      <path d="M8.33325 14.1668L12.4999 10.0002L8.33325 5.8335V14.1668Z" fill="#0186EF" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_717_1365">
-                        <rect width="20" height="20" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg></div>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a href="#form" class="group rounded-lg">
-          <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
-            <div class="">
-              <h3 class="text-sm text-white font-semibold mb-5">Frontend dasturchisi-VueJS, Javascript</h3>
-              <hr class="w-full block bg-white border-none h-px mb-2.5">
-              <div class="flex gap-2 justify-between">
-                <div class="flex gap-4 items-center">
-                  <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path
-                        d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z"
-                        fill="#1D1D1D" />
-                    </svg></div>
-                  <span class="text-xs text-white font-semibold">MONDAY-SATURDAY</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="flex gap-4 items-center">
-                  <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                      <g id="Group">
-                        <g id="Group_2">
-                          <path id="Vector"
-                            d="M10 0C4.5 0 0 4.5 0 10C0 15.5 4.5 20 10 20C15.5 20 20 15.5 20 10C20 4.5 15.5 0 10 0ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10.5 5H9V11L14.2 14.2L15 12.9L10.5 10.2V5Z"
-                            fill="#323232" />
-                        </g>
-                      </g>
-                    </svg></div>
-                  <span class="text-xs text-white font-semibold">10:00 - 18:00</span>
+                <div class="px-9 -translate-y-5">
+                    <div class="rounded-lg bg-[rgba(255,255,255,0.56)] backdrop-blur-sm px-5 py-2">
+                        <div class="flex justify-between items-center">
+                            <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <g clip-path="url(#clip0_717_1363)">
+                                        <path d="M9.99984 1.6665C5.39984 1.6665 1.6665 5.39984 1.6665 9.99984C1.6665 14.5998 5.39984 18.3332 9.99984 18.3332C14.5998 18.3332 18.3332 14.5998 18.3332 9.99984C18.3332 5.39984 14.5998 1.6665 9.99984 1.6665ZM9.99984 16.6665C6.32484 16.6665 3.33317 13.6748 3.33317 9.99984C3.33317 6.32484 6.32484 3.33317 9.99984 3.33317C13.6748 3.33317 16.6665 6.32484 16.6665 9.99984C16.6665 13.6748 13.6748 16.6665 9.99984 16.6665ZM10.2582 9.28317C8.78317 8.90817 8.30817 8.49984 8.30817 7.8915C8.30817 7.1915 8.9665 6.69984 10.0582 6.69984C11.2082 6.69984 11.6415 7.24984 11.6748 8.0665H13.0998C13.0582 6.94984 12.3748 5.92484 11.0248 5.5915V4.1665H9.08317V5.57484C7.82484 5.8415 6.8165 6.65817 6.8165 7.9165C6.8165 9.40817 8.05817 10.1582 9.8665 10.5915C11.4915 10.9748 11.8165 11.5498 11.8165 12.1498C11.8165 12.5915 11.4915 13.3082 10.0665 13.3082C8.73317 13.3082 8.20817 12.7082 8.13317 11.9415H6.69984C6.78317 13.3582 7.83317 14.1582 9.08317 14.4165V15.8332H11.0332V14.4415C12.2998 14.1998 13.2998 13.4748 13.3082 12.1332C13.2998 10.2998 11.7248 9.6665 10.2582 9.28317Z" fill="#0186EF" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_717_1363">
+                                            <rect width="20" height="20" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg></div>
+                            <b class="text-white text-sm font-black">5 000 000 - 20 000 000 </b>
+                            <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <g clip-path="url(#clip0_717_1365)">
+                                        <path d="M8.33325 14.1668L12.4999 10.0002L8.33325 5.8335V14.1668Z" fill="#0186EF" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_717_1365">
+                                            <rect width="20" height="20" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg></div>
+                        </div>
+                    </div>
                 </div>
+            </a>
+            <a href="/elonlar#form" class="group rounded-lg">
+                <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
+                    <div class="">
+                        <h3 class="text-sm text-white font-semibold mb-5"><?= $data['vakansiya']['card_6']['text']  ?></h3>
+                        <hr class="w-full block bg-white border-none h-px mb-2.5">
+                        <div class="flex gap-2 justify-between">
+                            <div class="flex gap-4 items-center">
+                                <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z" fill="#1D1D1D" />
+                                    </svg></div>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_6']['days']  ?></span>
+                            </div>
+                            <div class="flex gap-4 items-center">
+                                <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <g id="Group">
+                                            <g id="Group_2">
+                                                <path id="Vector" d="M10 0C4.5 0 0 4.5 0 10C0 15.5 4.5 20 10 20C15.5 20 20 15.5 20 10C20 4.5 15.5 0 10 0ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10.5 5H9V11L14.2 14.2L15 12.9L10.5 10.2V5Z" fill="#323232" />
+                                            </g>
+                                        </g>
+                                    </svg></div>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_6']['time']  ?></span>
+                            </div>
 
 
-              </div>
-            </div>
-          </div>
-          <div class="px-9 -translate-y-5">
-            <div class="rounded-lg bg-[rgba(255,255,255,0.56)] backdrop-blur-sm px-5 py-2">
-              <div class="flex justify-between items-center">
-                <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg
-                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <g clip-path="url(#clip0_717_1363)">
-                      <path
-                        d="M9.99984 1.6665C5.39984 1.6665 1.6665 5.39984 1.6665 9.99984C1.6665 14.5998 5.39984 18.3332 9.99984 18.3332C14.5998 18.3332 18.3332 14.5998 18.3332 9.99984C18.3332 5.39984 14.5998 1.6665 9.99984 1.6665ZM9.99984 16.6665C6.32484 16.6665 3.33317 13.6748 3.33317 9.99984C3.33317 6.32484 6.32484 3.33317 9.99984 3.33317C13.6748 3.33317 16.6665 6.32484 16.6665 9.99984C16.6665 13.6748 13.6748 16.6665 9.99984 16.6665ZM10.2582 9.28317C8.78317 8.90817 8.30817 8.49984 8.30817 7.8915C8.30817 7.1915 8.9665 6.69984 10.0582 6.69984C11.2082 6.69984 11.6415 7.24984 11.6748 8.0665H13.0998C13.0582 6.94984 12.3748 5.92484 11.0248 5.5915V4.1665H9.08317V5.57484C7.82484 5.8415 6.8165 6.65817 6.8165 7.9165C6.8165 9.40817 8.05817 10.1582 9.8665 10.5915C11.4915 10.9748 11.8165 11.5498 11.8165 12.1498C11.8165 12.5915 11.4915 13.3082 10.0665 13.3082C8.73317 13.3082 8.20817 12.7082 8.13317 11.9415H6.69984C6.78317 13.3582 7.83317 14.1582 9.08317 14.4165V15.8332H11.0332V14.4415C12.2998 14.1998 13.2998 13.4748 13.3082 12.1332C13.2998 10.2998 11.7248 9.6665 10.2582 9.28317Z"
-                        fill="#0186EF" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_717_1363">
-                        <rect width="20" height="20" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg></div>
-                <b class="text-white text-sm font-black">2 000 000 - 15 000 000 </b>
-                <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg
-                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <g clip-path="url(#clip0_717_1365)">
-                      <path d="M8.33325 14.1668L12.4999 10.0002L8.33325 5.8335V14.1668Z" fill="#0186EF" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_717_1365">
-                        <rect width="20" height="20" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg></div>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a href="#form" class="group rounded-lg">
-          <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
-            <div class="">
-              <h3 class="text-sm text-white font-semibold mb-5">Frontend dasturchisi-VueJS, Javascript</h3>
-              <hr class="w-full block bg-white border-none h-px mb-2.5">
-              <div class="flex gap-2 justify-between">
-                <div class="flex gap-4 items-center">
-                  <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path
-                        d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z"
-                        fill="#1D1D1D" />
-                    </svg></div>
-                  <span class="text-xs text-white font-semibold">MONDAY-SATURDAY</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="flex gap-4 items-center">
-                  <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                      <g id="Group">
-                        <g id="Group_2">
-                          <path id="Vector"
-                            d="M10 0C4.5 0 0 4.5 0 10C0 15.5 4.5 20 10 20C15.5 20 20 15.5 20 10C20 4.5 15.5 0 10 0ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10.5 5H9V11L14.2 14.2L15 12.9L10.5 10.2V5Z"
-                            fill="#323232" />
-                        </g>
-                      </g>
-                    </svg></div>
-                  <span class="text-xs text-white font-semibold">10:00 - 18:00</span>
+                <div class="px-9 -translate-y-5">
+                    <div class="rounded-lg bg-[rgba(255,255,255,0.56)] backdrop-blur-sm px-5 py-2">
+                        <div class="flex justify-between items-center">
+                            <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <g clip-path="url(#clip0_717_1363)">
+                                        <path d="M9.99984 1.6665C5.39984 1.6665 1.6665 5.39984 1.6665 9.99984C1.6665 14.5998 5.39984 18.3332 9.99984 18.3332C14.5998 18.3332 18.3332 14.5998 18.3332 9.99984C18.3332 5.39984 14.5998 1.6665 9.99984 1.6665ZM9.99984 16.6665C6.32484 16.6665 3.33317 13.6748 3.33317 9.99984C3.33317 6.32484 6.32484 3.33317 9.99984 3.33317C13.6748 3.33317 16.6665 6.32484 16.6665 9.99984C16.6665 13.6748 13.6748 16.6665 9.99984 16.6665ZM10.2582 9.28317C8.78317 8.90817 8.30817 8.49984 8.30817 7.8915C8.30817 7.1915 8.9665 6.69984 10.0582 6.69984C11.2082 6.69984 11.6415 7.24984 11.6748 8.0665H13.0998C13.0582 6.94984 12.3748 5.92484 11.0248 5.5915V4.1665H9.08317V5.57484C7.82484 5.8415 6.8165 6.65817 6.8165 7.9165C6.8165 9.40817 8.05817 10.1582 9.8665 10.5915C11.4915 10.9748 11.8165 11.5498 11.8165 12.1498C11.8165 12.5915 11.4915 13.3082 10.0665 13.3082C8.73317 13.3082 8.20817 12.7082 8.13317 11.9415H6.69984C6.78317 13.3582 7.83317 14.1582 9.08317 14.4165V15.8332H11.0332V14.4415C12.2998 14.1998 13.2998 13.4748 13.3082 12.1332C13.2998 10.2998 11.7248 9.6665 10.2582 9.28317Z" fill="#0186EF" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_717_1363">
+                                            <rect width="20" height="20" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg></div>
+                            <b class="text-white text-sm font-black">5 000 000 - 20 000 000 </b>
+                            <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <g clip-path="url(#clip0_717_1365)">
+                                        <path d="M8.33325 14.1668L12.4999 10.0002L8.33325 5.8335V14.1668Z" fill="#0186EF" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_717_1365">
+                                            <rect width="20" height="20" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg></div>
+                        </div>
+                    </div>
                 </div>
+            </a>
 
-
-              </div>
-            </div>
-          </div>
-          <div class="px-9 -translate-y-5">
-            <div class="rounded-lg bg-[rgba(255,255,255,0.56)] backdrop-blur-sm px-5 py-2">
-              <div class="flex justify-between items-center">
-                <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg
-                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <g clip-path="url(#clip0_717_1363)">
-                      <path
-                        d="M9.99984 1.6665C5.39984 1.6665 1.6665 5.39984 1.6665 9.99984C1.6665 14.5998 5.39984 18.3332 9.99984 18.3332C14.5998 18.3332 18.3332 14.5998 18.3332 9.99984C18.3332 5.39984 14.5998 1.6665 9.99984 1.6665ZM9.99984 16.6665C6.32484 16.6665 3.33317 13.6748 3.33317 9.99984C3.33317 6.32484 6.32484 3.33317 9.99984 3.33317C13.6748 3.33317 16.6665 6.32484 16.6665 9.99984C16.6665 13.6748 13.6748 16.6665 9.99984 16.6665ZM10.2582 9.28317C8.78317 8.90817 8.30817 8.49984 8.30817 7.8915C8.30817 7.1915 8.9665 6.69984 10.0582 6.69984C11.2082 6.69984 11.6415 7.24984 11.6748 8.0665H13.0998C13.0582 6.94984 12.3748 5.92484 11.0248 5.5915V4.1665H9.08317V5.57484C7.82484 5.8415 6.8165 6.65817 6.8165 7.9165C6.8165 9.40817 8.05817 10.1582 9.8665 10.5915C11.4915 10.9748 11.8165 11.5498 11.8165 12.1498C11.8165 12.5915 11.4915 13.3082 10.0665 13.3082C8.73317 13.3082 8.20817 12.7082 8.13317 11.9415H6.69984C6.78317 13.3582 7.83317 14.1582 9.08317 14.4165V15.8332H11.0332V14.4415C12.2998 14.1998 13.2998 13.4748 13.3082 12.1332C13.2998 10.2998 11.7248 9.6665 10.2582 9.28317Z"
-                        fill="#0186EF" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_717_1363">
-                        <rect width="20" height="20" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg></div>
-                <b class="text-white text-sm font-black">2 000 000 - 15 000 000 </b>
-                <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg
-                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <g clip-path="url(#clip0_717_1365)">
-                      <path d="M8.33325 14.1668L12.4999 10.0002L8.33325 5.8335V14.1668Z" fill="#0186EF" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_717_1365">
-                        <rect width="20" height="20" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg></div>
-              </div>
-            </div>
-          </div>
-        </a>
-
-      </div>
+        </div>
     </div>
     </div>
-  </section>
+</section>
 
-  <section id="form" class="bg-[#141415] pt-16 pb-16">
+<section id="form" class="bg-[#141415] pt-16 pb-16">
     <div class="max-w-[1322px] mx-auto px-5">
-      <form action="#" class="grid md:grid-cols-3 grid-cols-1 gap-x-14 gap-y-5 max-w-[1020px]">
-        <div>
-          <label class="text-sm text-white mb-2.5 inline-block" for="ism">*Name/Surname </label>
-          <input required type="text" id="ism"
-            class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
-        </div>
-        <div>
-          <label class="text-sm text-white mb-2.5 inline-block" for="firma">*Province</label>
-          <input type="text" id="firma" required
-            class="w-full text-white pl-2 relative h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
-        </div>
-        <div>
-          <label class="text-sm text-white mb-2.5 inline-block" for="raqam">*Salary</label>
-          <!-- <input required type="text" id="raqam" class=""> -->
-          <input type="text" id="firma" required
-          class="w-full text-white pl-2 relative h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
-        </div>
-        <div>
-          <label class="text-sm text-white mb-2.5 inline-block" for="xizmat">*Occupation type</label>
-          <input type="text" id="xizmat" required
-            class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
-        </div>
-        <div>
-          <label class="text-sm text-white mb-2.5 inline-block" for="ism">*Level</label>
-          <input required type="text" id="ism"
-            class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
-        </div>
-        <div>
-          <label class="text-sm text-white mb-2.5 inline-block" for="firma">*Portfolio</label>
-          <input type="text" id="firma" required
-            class="w-full text-white pl-2 relative h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
-        </div>
-        <div>
-          <label class="text-sm text-white mb-2.5 inline-block" for="raqam">*Phone number</label>
-          <input required type="number" id="raqam"
-            class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
-        </div>
-        <div>
-          <label class="text-sm text-white mb-2.5 inline-block" for="xizmat">*Type of employment</label>
-          <input type="text" id="xizmat" required
-            class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
-        </div>
-        <div>
-          <label class="" for="file"><span class="text-sm text-white mb-2.5 inline-block">*Post CV</span>
-            <span class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)] flex items-center">SVG, PNG, JPG</span>
-          </label>
-          <input type="file" id="file" required class="w-full hidden pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
+        <form action="#" class="grid md:grid-cols-3 grid-cols-1 gap-x-14 gap-y-5 max-w-[1020px]">
+            <div>
+                <label class="text-sm text-white mb-2.5 inline-block" for="ism"><?= $data['form']['ism_familiya'] ?></label>
+                <input required type="text" id="ism" class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
+            </div>
+            <div>
+                <label class="text-sm text-white mb-2.5 inline-block" for="firma"><?= $data['form']['viloyat'] ?></label>
+                <input type="text" id="firma" required class="w-full text-white pl-2 relative h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
+            </div>
+            <div>
+                <label class="text-sm text-white mb-2.5 inline-block" for="ish-haqqi"><?= $data['form']['ish_haqi'] ?></label>
+                <!-- <input required type="text" id="ish-haqqi" class=""> -->
+                <input type="text" id="ish-haqqi" required class="w-full text-white pl-2 relative h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
+            </div>
+            <div>
+                <label class="text-sm text-white mb-2.5 inline-block" for="kasb"><?= $data['form']['kasb_turi'] ?></label>
+                <input type="text" id="kasb" required class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
+            </div>
+            <div>
+                <label class="text-sm text-white mb-2.5 inline-block" for="daraja"><?= $data['form']['daraja'] ?></label>
+                <input required type="text" id="daraja" class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
+            </div>
+            <div>
+                <label class="text-sm text-white mb-2.5 inline-block" for="Portfolio"><?= $data['form']['portfolio'] ?></label>
+                <input type="text" id="Portfolio" required class="w-full text-white pl-2 relative h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
+            </div>
+            <div>
+                <label class="text-sm text-white mb-2.5 inline-block" for="raqam"><?= $data['form']['telefon_raqam'] ?></label>
+                <input required type="number" id="raqam" class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
+            </div>
+            <div>
+                <label class="text-sm text-white mb-2.5 inline-block" for="bandlik"><?= $data['form']['bandlik_turi'] ?></label>
+                <input type="text" id="bandlik" required class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
+            </div>
+            <div>
+                <label class="" for="file"><span class="text-sm text-white mb-2.5 inline-block"><?= $data['form']['cv_joylash'] ?></span>
+                    <span class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)] flex items-center">SVG, PNG, JPG</span>
+                </label>
+                <input type="file" id="file" required class="w-full hidden pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
 
-        </div>
+            </div>
+            <div class="col-span-1 md:col-span-3">
+                <label class="text-sm text-white mb-2.5 inline-block" for="qoshimcha"><?= $data['form']['qoshimcha_malumot'] ?></label>
+                <textarea name="" id="qoshimcha" class="w-full pl-2 text-white pt-2 col-span-1 md:col-span-3 h-[200px] rounded-lg resize-none bg-[rgba(255,255,255,0.09)]" id="" cols="30" rows="10" required></textarea>
+            </div>
 
-        <div class="col-span-1 md:col-span-3">
-          <label class="text-sm text-white mb-2.5 inline-block" for="xizmat">Additional Information</label>
-          <textarea name=""
-          class="w-full pl-2 text-white pt-2 col-span-1 md:col-span-3 h-[200px] rounded-lg resize-none bg-[rgba(255,255,255,0.09)]"
-          id="" cols="30" rows="10" required></textarea>
+            <button class="text-[#D9FFFF] text-sm font-bold  bg-[#0086EE] rounded-lg py-4 px-12 " style="box-shadow: 0px 1px 14px -4px #016079;"><?= $data['form']['button'] ?></button>
+        </form>
     </div>
-       
-        <button class="text-[#D9FFFF] text-sm font-bold  bg-[#0086EE] rounded-lg py-4 px-12 "
-          style="box-shadow: 0px 1px 14px -4px #016079;">Connection</button>
-      </form>
-    </div>
-  </section>
-
+</section>
 
 
 

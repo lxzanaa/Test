@@ -105,6 +105,7 @@ $data = get_fields();
 </header>
 <div class="pt-24"></div>
 
+
 <!-- Vakansiyalar -->
 <section class="bg-[#141415] pt-8 pb-16">
     <div class="max-w-[1322px] mx-auto px-5">
@@ -114,21 +115,21 @@ $data = get_fields();
                 text-shadow: 0 0 2px rgba(255, 255, 255, 0.25);
             }
         </style>
-        <h1 class="md:text-[64px] text-4xl font-semibold text-white  text-center mb-24 relative after:text-[#141415] after:content-['Vakansiyalar'] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:block after:text-[68px] md:after:text-[128px] after:z-10 uppercase">
-            <span class="relative z-30">Vakansiyalar</span>
+        <h1 class="md:text-[64px] text-4xl font-semibold text-white  text-center mb-24 relative after:text-[#141415] after:content-['<?= $data['vakansiya']['main_title'] ?>'] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:block after:text-[68px] md:after:text-[128px] after:z-10 uppercase">
+            <span class="relative z-30"><?= $data['vakansiya']['main_title'] ?></span>
         </h1>
-        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-5">
-            <a href="#form" class="group rounded-lg">
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-x-5">
+            <a href="/elonlar#form" class="group rounded-lg">
                 <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
                     <div class="">
-                        <h3 class="text-sm text-white font-semibold mb-5">Frontend dasturchisi-VueJS, Javascript</h3>
+                        <h3 class="text-sm text-white font-semibold mb-5"><?= $data['vakansiya']['card_1']['text']  ?></h3>
                         <hr class="w-full block bg-white border-none h-px mb-2.5">
                         <div class="flex gap-2 justify-between">
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                         <path d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z" fill="#1D1D1D" />
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">DUSHANBA-SHANBA</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_1']['days']  ?></span>
                             </div>
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -138,7 +139,7 @@ $data = get_fields();
                                             </g>
                                         </g>
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">10:00 - 18:00</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_1']['time']  ?></span>
                             </div>
 
 
@@ -158,7 +159,7 @@ $data = get_fields();
                                         </clipPath>
                                     </defs>
                                 </svg></div>
-                            <b class="text-white text-sm font-black">2 000 000 - 15 000 000 </b>
+                            <b class="text-white text-sm font-black">5 000 000 - 20 000 000 </b>
                             <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <g clip-path="url(#clip0_717_1365)">
                                         <path d="M8.33325 14.1668L12.4999 10.0002L8.33325 5.8335V14.1668Z" fill="#0186EF" />
@@ -173,17 +174,17 @@ $data = get_fields();
                     </div>
                 </div>
             </a>
-            <a href="#form" class="group rounded-lg">
+            <a href="/elonlar#form" class="group rounded-lg">
                 <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
                     <div class="">
-                        <h3 class="text-sm text-white font-semibold mb-5">Frontend dasturchisi-VueJS, Javascript</h3>
+                        <h3 class="text-sm text-white font-semibold mb-5"><?= $data['vakansiya']['card_2']['text']  ?></h3>
                         <hr class="w-full block bg-white border-none h-px mb-2.5">
                         <div class="flex gap-2 justify-between">
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                         <path d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z" fill="#1D1D1D" />
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">DUSHANBA-SHANBA</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_2']['days']  ?></span>
                             </div>
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -193,7 +194,7 @@ $data = get_fields();
                                             </g>
                                         </g>
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">10:00 - 18:00</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_2']['time']  ?></span>
                             </div>
 
 
@@ -213,7 +214,7 @@ $data = get_fields();
                                         </clipPath>
                                     </defs>
                                 </svg></div>
-                            <b class="text-white text-sm font-black">2 000 000 - 15 000 000 </b>
+                            <b class="text-white text-sm font-black">5 000 000 - 20 000 000 </b>
                             <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <g clip-path="url(#clip0_717_1365)">
                                         <path d="M8.33325 14.1668L12.4999 10.0002L8.33325 5.8335V14.1668Z" fill="#0186EF" />
@@ -228,17 +229,17 @@ $data = get_fields();
                     </div>
                 </div>
             </a>
-            <a href="#form" class="group rounded-lg">
+            <a href="/elonlar#form" class="group rounded-lg">
                 <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
                     <div class="">
-                        <h3 class="text-sm text-white font-semibold mb-5">Frontend dasturchisi-VueJS, Javascript</h3>
+                        <h3 class="text-sm text-white font-semibold mb-5"><?= $data['vakansiya']['card_3']['text']  ?></h3>
                         <hr class="w-full block bg-white border-none h-px mb-2.5">
                         <div class="flex gap-2 justify-between">
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                         <path d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z" fill="#1D1D1D" />
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">DUSHANBA-SHANBA</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_3']['days']  ?></span>
                             </div>
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -248,7 +249,7 @@ $data = get_fields();
                                             </g>
                                         </g>
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">10:00 - 18:00</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_3']['time']  ?></span>
                             </div>
 
 
@@ -268,7 +269,7 @@ $data = get_fields();
                                         </clipPath>
                                     </defs>
                                 </svg></div>
-                            <b class="text-white text-sm font-black">2 000 000 - 15 000 000 </b>
+                            <b class="text-white text-sm font-black">5 000 000 - 20 000 000 </b>
                             <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <g clip-path="url(#clip0_717_1365)">
                                         <path d="M8.33325 14.1668L12.4999 10.0002L8.33325 5.8335V14.1668Z" fill="#0186EF" />
@@ -283,17 +284,17 @@ $data = get_fields();
                     </div>
                 </div>
             </a>
-            <a href="#form" class="group rounded-lg">
+            <a href="/elonlar#form" class="group rounded-lg">
                 <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
                     <div class="">
-                        <h3 class="text-sm text-white font-semibold mb-5">Frontend dasturchisi-VueJS, Javascript</h3>
+                        <h3 class="text-sm text-white font-semibold mb-5"><?= $data['vakansiya']['card_4']['text']  ?></h3>
                         <hr class="w-full block bg-white border-none h-px mb-2.5">
                         <div class="flex gap-2 justify-between">
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                         <path d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z" fill="#1D1D1D" />
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">DUSHANBA-SHANBA</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_4']['days']  ?></span>
                             </div>
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -303,7 +304,7 @@ $data = get_fields();
                                             </g>
                                         </g>
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">10:00 - 18:00</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_4']['time']  ?></span>
                             </div>
 
 
@@ -323,7 +324,7 @@ $data = get_fields();
                                         </clipPath>
                                     </defs>
                                 </svg></div>
-                            <b class="text-white text-sm font-black">2 000 000 - 15 000 000 </b>
+                            <b class="text-white text-sm font-black">5 000 000 - 20 000 000 </b>
                             <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <g clip-path="url(#clip0_717_1365)">
                                         <path d="M8.33325 14.1668L12.4999 10.0002L8.33325 5.8335V14.1668Z" fill="#0186EF" />
@@ -338,17 +339,17 @@ $data = get_fields();
                     </div>
                 </div>
             </a>
-            <a href="#form" class="group rounded-lg">
+            <a href="/elonlar#form" class="group rounded-lg">
                 <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
                     <div class="">
-                        <h3 class="text-sm text-white font-semibold mb-5">Frontend dasturchisi-VueJS, Javascript</h3>
+                        <h3 class="text-sm text-white font-semibold mb-5"><?= $data['vakansiya']['card_5']['text']  ?></h3>
                         <hr class="w-full block bg-white border-none h-px mb-2.5">
                         <div class="flex gap-2 justify-between">
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                         <path d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z" fill="#1D1D1D" />
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">DUSHANBA-SHANBA</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_5']['days']  ?></span>
                             </div>
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -358,7 +359,7 @@ $data = get_fields();
                                             </g>
                                         </g>
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">10:00 - 18:00</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_5']['time']  ?></span>
                             </div>
 
 
@@ -378,7 +379,7 @@ $data = get_fields();
                                         </clipPath>
                                     </defs>
                                 </svg></div>
-                            <b class="text-white text-sm font-black">2 000 000 - 15 000 000 </b>
+                            <b class="text-white text-sm font-black">5 000 000 - 20 000 000 </b>
                             <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <g clip-path="url(#clip0_717_1365)">
                                         <path d="M8.33325 14.1668L12.4999 10.0002L8.33325 5.8335V14.1668Z" fill="#0186EF" />
@@ -393,17 +394,17 @@ $data = get_fields();
                     </div>
                 </div>
             </a>
-            <a href="#form" class="group rounded-lg">
+            <a href="/elonlar#form" class="group rounded-lg">
                 <div class="bg-[#0F4A78] rounded-lg pl-5 pr-4 pt-5 pb-11 hover:shadow-custom transition-all">
                     <div class="">
-                        <h3 class="text-sm text-white font-semibold mb-5">Frontend dasturchisi-VueJS, Javascript</h3>
+                        <h3 class="text-sm text-white font-semibold mb-5"><?= $data['vakansiya']['card_6']['text']  ?></h3>
                         <hr class="w-full block bg-white border-none h-px mb-2.5">
                         <div class="flex gap-2 justify-between">
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                         <path d="M19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4H7V2H9V4H15V2H17V4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22ZM5 10V20H19V10H5ZM5 6V8H19V6H5ZM17 18H15V16H17V18ZM13 18H11V16H13V18ZM9 18H7V16H9V18ZM17 14H15V12H17V14ZM13 14H11V12H13V14ZM9 14H7V12H9V14Z" fill="#1D1D1D" />
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">DUSHANBA-SHANBA</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_6']['days']  ?></span>
                             </div>
                             <div class="flex gap-4 items-center">
                                 <div class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -413,7 +414,7 @@ $data = get_fields();
                                             </g>
                                         </g>
                                     </svg></div>
-                                <span class="text-xs text-white font-semibold">10:00 - 18:00</span>
+                                <span class="text-xs text-white font-semibold"><?= $data['vakansiya']['card_6']['time']  ?></span>
                             </div>
 
 
@@ -433,7 +434,7 @@ $data = get_fields();
                                         </clipPath>
                                     </defs>
                                 </svg></div>
-                            <b class="text-white text-sm font-black">2 000 000 - 15 000 000 </b>
+                            <b class="text-white text-sm font-black">5 000 000 - 20 000 000 </b>
                             <div class="w-8 h-8 border border-[#0186EF] flex items-center justify-center rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <g clip-path="url(#clip0_717_1365)">
                                         <path d="M8.33325 14.1668L12.4999 10.0002L8.33325 5.8335V14.1668Z" fill="#0186EF" />
@@ -458,51 +459,51 @@ $data = get_fields();
     <div class="max-w-[1322px] mx-auto px-5">
         <form action="#" class="grid md:grid-cols-3 grid-cols-1 gap-x-14 gap-y-5 max-w-[1020px]">
             <div>
-                <label class="text-sm text-white mb-2.5 inline-block" for="ism">*Ism/Familiya </label>
+                <label class="text-sm text-white mb-2.5 inline-block" for="ism"><?= $data['form']['ism_familiya'] ?></label>
                 <input required type="text" id="ism" class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
             </div>
             <div>
-                <label class="text-sm text-white mb-2.5 inline-block" for="firma">*Viloyat</label>
+                <label class="text-sm text-white mb-2.5 inline-block" for="firma"><?= $data['form']['viloyat'] ?></label>
                 <input type="text" id="firma" required class="w-full text-white pl-2 relative h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
             </div>
             <div>
-                <label class="text-sm text-white mb-2.5 inline-block" for="raqam">*Ish haqi</label>
-                <!-- <input required type="text" id="raqam" class=""> -->
-                <input type="text" id="firma" required class="w-full text-white pl-2 relative h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
+                <label class="text-sm text-white mb-2.5 inline-block" for="ish-haqqi"><?= $data['form']['ish_haqi'] ?></label>
+                <!-- <input required type="text" id="ish-haqqi" class=""> -->
+                <input type="text" id="ish-haqqi" required class="w-full text-white pl-2 relative h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
             </div>
             <div>
-                <label class="text-sm text-white mb-2.5 inline-block" for="xizmat">*Kasb turi</label>
-                <input type="text" id="xizmat" required class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
+                <label class="text-sm text-white mb-2.5 inline-block" for="kasb"><?= $data['form']['kasb_turi'] ?></label>
+                <input type="text" id="kasb" required class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
             </div>
             <div>
-                <label class="text-sm text-white mb-2.5 inline-block" for="ism">*Daraja</label>
-                <input required type="text" id="ism" class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
+                <label class="text-sm text-white mb-2.5 inline-block" for="daraja"><?= $data['form']['daraja'] ?></label>
+                <input required type="text" id="daraja" class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
             </div>
             <div>
-                <label class="text-sm text-white mb-2.5 inline-block" for="firma">*Portfolio</label>
-                <input type="text" id="firma" required class="w-full text-white pl-2 relative h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
+                <label class="text-sm text-white mb-2.5 inline-block" for="Portfolio"><?= $data['form']['portfolio'] ?></label>
+                <input type="text" id="Portfolio" required class="w-full text-white pl-2 relative h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
             </div>
             <div>
-                <label class="text-sm text-white mb-2.5 inline-block" for="raqam">*Telefon raqam</label>
+                <label class="text-sm text-white mb-2.5 inline-block" for="raqam"><?= $data['form']['telefon_raqam'] ?></label>
                 <input required type="number" id="raqam" class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
             </div>
             <div>
-                <label class="text-sm text-white mb-2.5 inline-block" for="xizmat">*Bandlik turi</label>
-                <input type="text" id="xizmat" required class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
+                <label class="text-sm text-white mb-2.5 inline-block" for="bandlik"><?= $data['form']['bandlik_turi'] ?></label>
+                <input type="text" id="bandlik" required class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
             </div>
             <div>
-                <label class="" for="file"><span class="text-sm text-white mb-2.5 inline-block">*CV joylash </span>
+                <label class="" for="file"><span class="text-sm text-white mb-2.5 inline-block"><?= $data['form']['cv_joylash'] ?></span>
                     <span class="w-full pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)] flex items-center">SVG, PNG, JPG</span>
                 </label>
                 <input type="file" id="file" required class="w-full hidden pl-2 text-white h-[46px] rounded-lg bg-[rgba(255,255,255,0.09)]">
 
             </div>
             <div class="col-span-1 md:col-span-3">
-                <label class="text-sm text-white mb-2.5 inline-block" for="xizmat">Qo'shimcha malumot</label>
-                <textarea name="" class="w-full pl-2 text-white pt-2 col-span-1 md:col-span-3 h-[200px] rounded-lg resize-none bg-[rgba(255,255,255,0.09)]" id="" cols="30" rows="10" required></textarea>
+                <label class="text-sm text-white mb-2.5 inline-block" for="qoshimcha"><?= $data['form']['qoshimcha_malumot'] ?></label>
+                <textarea name="" id="qoshimcha" class="w-full pl-2 text-white pt-2 col-span-1 md:col-span-3 h-[200px] rounded-lg resize-none bg-[rgba(255,255,255,0.09)]" id="" cols="30" rows="10" required></textarea>
             </div>
 
-            <button class="text-[#D9FFFF] text-sm font-bold  bg-[#0086EE] rounded-lg py-4 px-12 " style="box-shadow: 0px 1px 14px -4px #016079;">Bog’lanish</button>
+            <button class="text-[#D9FFFF] text-sm font-bold  bg-[#0086EE] rounded-lg py-4 px-12 " style="box-shadow: 0px 1px 14px -4px #016079;"><?= $data['form']['button'] ?></button>
         </form>
     </div>
 </section>
