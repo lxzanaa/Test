@@ -103,68 +103,68 @@ $data = get_fields();
 
 <section class="pt-10 pb-[264px]">
     <div class="max-w-[1322px] mx-auto px-5 relative">
-        <div class="flex justify-center mb-20">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-about.svg" alt="about logo">
-        </div>
-        <div class="max-w-[760px]">
-            <h2 class="text-white text-[32px] font-bold leading-tight mb-8">О IPRO</h2>
-            <p class="text-white text-2xl mb-16">iPRO IT and M&M group ga 2021-yil 22-iyul sanasida asos solingan. Shu
-                kundan boshlab professional ish faoliyatini boshlagan. Shu kungacha ko'plab brenlar bilan ishlagan va ishlab
-                kelmoqda!
-                Kompaniya tashkil etilgan paytda jamoa atigi 10 kishidan iborat edi, endilikda esa jamoada +100 mutaxassislar
-                faoliyat olib boradi. Bu odamlar kompaniya maqsadiga ishonib, loyihaning rivojlanishiga hissa qo'shishga
-                intilishdi. Bugungi kunga qadar bu odamlar kompaniyaga sodiq qolgan holda, o'z jamoalarini turli
-                yo'nalishlarda (Backend, Frontend, QA, Mobile, Analytics, Marketing Team va boshqalar) rivojlantirib
-                kelmoqdalar.iPRO IT and M&M group ga 2021-yil 22-iyul sanasida asos solingan. Shu kundan boshlab professional
-                ish faoliyatini boshlagan. Shu kungacha ko'plab brenlar bilan ishlagan va ishlab kelmoqda!
-            </p>
-            <a href="/index/#contact" class="py-3 px-12 rounded-lg bg-[#0086EE] shadow-about-btn text-[#D9FFFF] text-sm font-bold">Связь</a>
+      <div class="flex justify-center mb-20" >
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-about.svg" alt="about logo">
+      </div>
+      <div class="max-w-[760px]" >
+        <h2 class="text-white text-[32px] font-bold leading-tight mb-8"><?= $data['main_title'] ?></h2>
+        <p class="text-white text-2xl mb-16"><?= $data['text'] ?>
+        </p>
+        <a href="/index/#contact"
+          class="py-3 px-12 rounded-lg bg-[#0086EE] shadow-about-btn text-[#D9FFFF] text-sm font-bold"><?= $data['button'] ?></a>
 
+      </div>
+      <div hidden
+        class="w-[832px] h-[832px] border-[66px] border-[#0086EE] rounded-full shadow-about-disc absolute top-[180px] -right-[487px]">
+        <div class="w-[430px] h-[113px] bg-[#0F4A78] flex items-center relative">
+          <div class="absolute top-0 left-0 flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="121" height="113" viewBox="0 0 121 113" fill="none">
+              <path
+                d="M18.2359 60.4448C16.8489 57.9978 16.849 55.0022 18.2359 52.5552L28.9443 33.6625L39.9517 14.9424C41.3773 12.5178 43.9716 11.02 46.7843 10.9976L68.5 10.825L90.2158 10.9976C93.0284 11.02 95.6227 12.5178 97.0483 14.9424L108.056 33.6625L118.764 52.5552C120.151 55.0022 120.151 57.9978 118.764 60.4448L108.056 79.3375L97.0483 98.0576C95.6227 100.482 93.0284 101.98 90.2158 102.002L68.5 102.175L46.7843 102.002C43.9716 101.98 41.3773 100.482 39.9517 98.0576L28.9443 79.3375L18.2359 60.4448Z"
+                fill="white" fill-opacity="0.69" />
+              <g filter="url(#filter0_d_1103_413)">
+                <path
+                  d="M-32.7641 60.4448C-34.151 57.9978 -34.151 55.0022 -32.7641 52.5552L-18.1108 26.7025L-3.04835 1.08601C-1.62266 -1.33862 0.971602 -2.83643 3.78425 -2.85878L33.5 -3.095L63.2157 -2.85878C66.0284 -2.83643 68.6227 -1.33863 70.0483 1.08602L85.1108 26.7025L99.7641 52.5552C101.151 55.0022 101.151 57.9978 99.7641 60.4448L85.1108 86.2975L70.0483 111.914C68.6227 114.339 66.0284 115.836 63.2157 115.859L33.5 116.095L3.78426 115.859C0.971607 115.836 -1.62266 114.339 -3.04834 111.914L-18.1108 86.2975L-32.7641 60.4448Z"
+                  fill="#0F4A78" />
+              </g>
+              <defs>
+                <filter id="filter0_d_1103_413" x="-39.8043" y="-11.095" width="150.609" height="135.19"
+                  filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dx="2" />
+                  <feGaussianBlur stdDeviation="4" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.78 0" />
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1103_413" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1103_413" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+          
+          <div class="pl-[133px]">
+            <h3 class="mb-1 text-white text-lg font-semibold">Ux/Ui dizayn</h3>
+            <p class="text-white text-xs">Bu soha bo’yicha batafsil ma’lumotni bilib oling.Videoni tomosha qiling</p>
+          </div>
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="30" cy="30" r="30" fill="white" fill-opacity="0.65" />
+            <circle cx="30" cy="30" r="25" fill="white" fill-opacity="0.7" />
+            <circle cx="30" cy="30" r="20" fill="white" />
+            <g clip-path="url(#clip0_717_2525)">
+              <path d="M27 37.5L34.5 30L27 22.5V37.5Z" fill="#0186EF" />
+            </g>
+            <defs>
+              <clipPath id="clip0_717_2525">
+                <rect width="36" height="36" fill="white" transform="translate(12 12)" />
+              </clipPath>
+            </defs>
+          </svg>
         </div>
-        <div hidden class="w-[832px] h-[832px] border-[66px] border-[#0086EE] rounded-full shadow-about-disc absolute top-[180px] -right-[487px]">
-            <div class="w-[430px] h-[113px] bg-[#0F4A78] flex items-center relative">
-                <div class="absolute top-0 left-0 flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="121" height="113" viewBox="0 0 121 113" fill="none">
-                        <path d="M18.2359 60.4448C16.8489 57.9978 16.849 55.0022 18.2359 52.5552L28.9443 33.6625L39.9517 14.9424C41.3773 12.5178 43.9716 11.02 46.7843 10.9976L68.5 10.825L90.2158 10.9976C93.0284 11.02 95.6227 12.5178 97.0483 14.9424L108.056 33.6625L118.764 52.5552C120.151 55.0022 120.151 57.9978 118.764 60.4448L108.056 79.3375L97.0483 98.0576C95.6227 100.482 93.0284 101.98 90.2158 102.002L68.5 102.175L46.7843 102.002C43.9716 101.98 41.3773 100.482 39.9517 98.0576L28.9443 79.3375L18.2359 60.4448Z" fill="white" fill-opacity="0.69" />
-                        <g filter="url(#filter0_d_1103_413)">
-                            <path d="M-32.7641 60.4448C-34.151 57.9978 -34.151 55.0022 -32.7641 52.5552L-18.1108 26.7025L-3.04835 1.08601C-1.62266 -1.33862 0.971602 -2.83643 3.78425 -2.85878L33.5 -3.095L63.2157 -2.85878C66.0284 -2.83643 68.6227 -1.33863 70.0483 1.08602L85.1108 26.7025L99.7641 52.5552C101.151 55.0022 101.151 57.9978 99.7641 60.4448L85.1108 86.2975L70.0483 111.914C68.6227 114.339 66.0284 115.836 63.2157 115.859L33.5 116.095L3.78426 115.859C0.971607 115.836 -1.62266 114.339 -3.04834 111.914L-18.1108 86.2975L-32.7641 60.4448Z" fill="#0F4A78" />
-                        </g>
-                        <defs>
-                            <filter id="filter0_d_1103_413" x="-39.8043" y="-11.095" width="150.609" height="135.19" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                <feOffset dx="2" />
-                                <feGaussianBlur stdDeviation="4" />
-                                <feComposite in2="hardAlpha" operator="out" />
-                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.78 0" />
-                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1103_413" />
-                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1103_413" result="shape" />
-                            </filter>
-                        </defs>
-                    </svg>
-                </div>
-
-                <div class="pl-[133px]">
-                    <h3 class="mb-1 text-white text-lg font-semibold">Ux/Ui dizayn</h3>
-                    <p class="text-white text-xs">Bu soha bo’yicha batafsil ma’lumotni bilib oling.Videoni tomosha qiling</p>
-                </div>
-                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="30" cy="30" r="30" fill="white" fill-opacity="0.65" />
-                    <circle cx="30" cy="30" r="25" fill="white" fill-opacity="0.7" />
-                    <circle cx="30" cy="30" r="20" fill="white" />
-                    <g clip-path="url(#clip0_717_2525)">
-                        <path d="M27 37.5L34.5 30L27 22.5V37.5Z" fill="#0186EF" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_717_2525">
-                            <rect width="36" height="36" fill="white" transform="translate(12 12)" />
-                        </clipPath>
-                    </defs>
-                </svg>
-            </div>
-        </div>
+      </div>
     </div>
-</section>
+  </section>
 
 
 <!-- footer start -->

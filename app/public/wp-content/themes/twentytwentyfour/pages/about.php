@@ -114,19 +114,11 @@ $data = get_fields();
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-about.svg" alt="about logo">
       </div>
       <div class="max-w-[760px]" >
-        <h2 class="text-white text-[32px] font-bold leading-tight mb-8">IPRO haqida</h2>
-        <p class="text-white text-2xl mb-16">iPRO IT and M&M group ga 2021-yil 22-iyul sanasida asos solingan. Shu
-          kundan boshlab professional ish faoliyatini boshlagan. Shu kungacha ko'plab brenlar bilan ishlagan va ishlab
-          kelmoqda!
-          Kompaniya tashkil etilgan paytda jamoa atigi 10 kishidan iborat edi, endilikda esa jamoada +100 mutaxassislar
-          faoliyat olib boradi. Bu odamlar kompaniya maqsadiga ishonib, loyihaning rivojlanishiga hissa qo'shishga
-          intilishdi. Bugungi kunga qadar bu odamlar kompaniyaga sodiq qolgan holda, o'z jamoalarini turli
-          yo'nalishlarda (Backend, Frontend, QA, Mobile, Analytics, Marketing Team va boshqalar) rivojlantirib
-          kelmoqdalar.iPRO IT and M&M group ga 2021-yil 22-iyul sanasida asos solingan. Shu kundan boshlab professional
-          ish faoliyatini boshlagan. Shu kungacha ko'plab brenlar bilan ishlagan va ishlab kelmoqda!
+        <h2 class="text-white text-[32px] font-bold leading-tight mb-8"><?= $data['main_title'] ?></h2>
+        <p class="text-white text-2xl mb-16"><?= $data['text'] ?>
         </p>
         <a href="/index/#contact"
-          class="py-3 px-12 rounded-lg bg-[#0086EE] shadow-about-btn text-[#D9FFFF] text-sm font-bold">Bog’lanish</a>
+          class="py-3 px-12 rounded-lg bg-[#0086EE] shadow-about-btn text-[#D9FFFF] text-sm font-bold"><?= $data['button'] ?></a>
 
       </div>
       <div hidden
